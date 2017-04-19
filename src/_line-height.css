@@ -1,0 +1,5 @@
+@media (--breakpoint-x-large) {
+ .lh-solid-xl { line-height: 1; }
+ .lh-title-xl { line-height: 1.25; }
+ .lh-copy-xl { line-height: 1.5; }
+}

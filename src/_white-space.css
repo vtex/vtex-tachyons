@@ -1,0 +1,5 @@
+@media (--breakpoint-x-large) {
+ .ws-normal-xl { white-space: normal; }
+ .nowrap-xl { white-space: nowrap; }
+ .pre-xl { white-space: pre; }
+}

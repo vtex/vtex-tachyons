@@ -1,0 +1,4 @@
+@media (--breakpoint-x-large) {
+ .i-xl { font-style: italic; }
+ .fs-normal-xl { font-style: normal; }
+}

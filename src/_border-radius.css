@@ -1,0 +1,13 @@
+@media (--breakpoint-x-large) {
+ .br0-xl { border-radius: 0; }
+ .br1-xl { border-radius: .125rem; }
+ .br2-xl { border-radius: .25rem; }
+ .br3-xl { border-radius: .5rem; }
+ .br4-xl { border-radius: 1rem; }
+ .br-100-xl { border-radius: 100%; }
+ .br-pill-xl { border-radius: 9999px; }
+ .br--bottom-xl { border-top-left-radius: 0; border-top-right-radius: 0; }
+ .br--top-xl { border-bottom-left-radius: 0; border-bottom-right-radius: 0; }
+ .br--right-xl { border-top-left-radius: 0; border-bottom-left-radius: 0; }
+ .br--left-xl { border-top-right-radius: 0; border-bottom-right-radius: 0; }
+}

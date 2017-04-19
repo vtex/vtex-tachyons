@@ -1,0 +1,5 @@
+@media (--breakpoint-x-large) {
+ .strike-xl { text-decoration: line-through; }
+ .underline-xl { text-decoration: underline; }
+ .no-underline-xl { text-decoration: none; }
+}

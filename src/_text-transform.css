@@ -1,0 +1,6 @@
+@media (--breakpoint-x-large) {
+ .ttc-xl { text-transform: capitalize; }
+ .ttl-xl { text-transform: lowercase; }
+ .ttu-xl { text-transform: uppercase; }
+ .ttn-xl { text-transform: none; }
+}

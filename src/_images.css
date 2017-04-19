@@ -1,0 +1,3 @@
+@media (--breakpoint-x-large) {
+ img-xl { max-width: 100%; }
+}

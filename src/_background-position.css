@@ -1,0 +1,7 @@
+@media (--breakpoint-x-large) {
+ .bg-center-xl { background-repeat: no-repeat; background-position: center center; }
+ .bg-top-xl { background-repeat: no-repeat; background-position: top center; }
+ .bg-right-xl { background-repeat: no-repeat; background-position: center right; }
+ .bg-bottom-xl { background-repeat: no-repeat; background-position: bottom center; }
+ .bg-left-xl { background-repeat: no-repeat; background-position: center left; }
+}

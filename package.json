@@ -1,0 +1,52 @@
+{
+  "name": "vtex-tachyons",
+  "version": "0.1.0",
+  "description": "Functional CSS for humans — customized by the VTEX team",
+  "author": "vtex",
+  "style": "css/vtex-tachyons.min.css",
+  "main": "css/vtex-tachyons.css",
+  "files": [
+    "css",
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vtex/vtex-tachyons.git"
+  },
+  "keywords": [
+    "css",
+    "oocss",
+    "postcss",
+    "functional css",
+    "design",
+    "responsive",
+    "performance"
+  ],
+  "license": "MIT",
+  "contributors": [
+    "Daniel Fosco (http://danielfos.co)",
+    "Zeh Fernandes (http://zehfernandes.com)"
+  ],
+  "scripts": {
+    "start": "npm run build:watch",
+    "updateMedia": "tachyons src --customMedia --variables=src/_media-queries.css --overwrite=false",
+    "mutations": "immutable-css src/index.css --strict",
+    "build": "npm run build:css && npm run build:minify",
+    "build:css": "tachyons src/index.css > css/vtex-tachyons.css",
+    "build:minify": "tachyons src/index.css -m > css/vtex-tachyons.min.css",
+    "build:watch": "watch 'npm run build' ./src/",
+    "prepublish": "npm run build"
+  },
+  "bugs": {
+    "url": "https://github.com/vtex/vtex-tachyons/issues"
+  },
+  "homepage": "https://github.com/vtex/vtex-tachyons#readme",
+  "devDependencies": {
+    "copy-files": "^0.1.0",
+    "immutable-css-cli": "^1.1.1",
+    "tachyons": "4.7.1",
+    "tachyons-modules": "^1.1.8",
+    "tachyons-cli": "^1.0.10",
+    "watch": "^1.0.1"
+  }
+}

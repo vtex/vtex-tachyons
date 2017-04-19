@@ -1,0 +1,7 @@
+@media (--breakpoint-x-large) {
+ .link-xl { text-decoration: none; transition: color .15s ease-in; }
+ .link-xl:link, .link-xl:visited { transition: color .15s ease-in; }
+ .link-xl:hover { transition: color .15s ease-in; }
+ .link-xl:active { transition: color .15s ease-in; }
+ .link-xl:focus { transition: color .15s ease-in; outline: 1px dotted currentColor; }
+}
