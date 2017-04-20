@@ -1,5 +1,6 @@
 /* Import vanilla tachyons */
 @import 'tachyons/src/tachyons.css';
+@import './_normalize_opinionated.css';
 
 /* VTEX custom changes */
 @import './_aspect-ratios';
