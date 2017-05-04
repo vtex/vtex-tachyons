@@ -105,7 +105,7 @@
 	font-style: italic;
 }
 
-* {
+body, button, input, optgroup, select, textarea {
   font-family: 'Fabriga',
   -apple-system,
   BlinkMacSystemFont,
