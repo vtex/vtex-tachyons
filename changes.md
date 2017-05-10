@@ -13,7 +13,6 @@ Sua aplicação pode ter até três layers de customização:
 
 ### Lista de changes
 
-- `{property}-xl` Breakpoint para telas acima de `1600px` na escala em `100em`
 - `color-{breakpoint}` cores agora também respeitam breakpoint.
 - `fill-{color}` classe de cores para elementos SVG com a propriedade fill.
 - `.f7` classe para tamanho de fonte equivalente a `12px` na escala em `.75em`
