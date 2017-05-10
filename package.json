@@ -1,6 +1,6 @@
 {
   "name": "vtex-tachyons",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Functional CSS for humans — customized by the VTEX team",
   "author": "vtex",
   "style": "css/vtex-tachyons.min.css",
