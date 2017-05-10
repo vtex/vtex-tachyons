@@ -33,10 +33,6 @@
 .fill-light-red { fill: var(--light-red); }
 .fill-orange { fill: var(--orange); }
 .fill-gold { fill: var(--gold); }
-.fill-dark-tangerine { fill: var(--dark-tangerine); }
-.fill-light-tangerine { fill: var(--light-tangerine); }
-.fill-tangerine { fill: var(--tangerine); }
-.fill-lightest-tangerine { fill: var(--lightest-tangerine); }
 .fill-yellow { fill: var(--yellow); }
 .fill-light-yellow { fill: var(--light-yellow); }
 .fill-purple { fill: var(--purple); }
@@ -95,10 +91,6 @@
  .fill-light-red-ns { fill: var(--light-red); }
  .fill-orange-ns { fill: var(--orange); }
  .fill-gold-ns { fill: var(--gold); }
- .fill-dark-tangerine-ns { fill: var(--dark-tangerine); }
- .fill-light-tangerine-ns { fill: var(--light-tangerine); }
- .fill-tangerine-ns { fill: var(--tangerine); }
- .fill-lightest-tangerine-ns { fill: var(--lightest-tangerine); }
  .fill-yellow-ns { fill: var(--yellow); }
  .fill-light-yellow-ns { fill: var(--light-yellow); }
  .fill-purple-ns { fill: var(--purple); }
@@ -158,10 +150,6 @@
  .fill-light-red-m { fill: var(--light-red); }
  .fill-orange-m { fill: var(--orange); }
  .fill-gold-m { fill: var(--gold); }
- .fill-dark-tangerine-m { fill: var(--dark-tangerine); }
- .fill-light-tangerine-m { fill: var(--light-tangerine); }
- .fill-tangerine-m { fill: var(--tangerine); }
- .fill-lightest-tangerine-m { fill: var(--lightest-tangerine); }
  .fill-yellow-m { fill: var(--yellow); }
  .fill-light-yellow-m { fill: var(--light-yellow); }
  .fill-purple-m { fill: var(--purple); }
@@ -221,10 +209,6 @@
  .fill-light-red-l { fill: var(--light-red); }
  .fill-orange-l { fill: var(--orange); }
  .fill-gold-l { fill: var(--gold); }
- .fill-dark-tangerine-l { fill: var(--dark-tangerine); }
- .fill-light-tangerine-l { fill: var(--light-tangerine); }
- .fill-tangerine-l { fill: var(--tangerine); }
- .fill-lightest-tangerine-l { fill: var(--lightest-tangerine); }
  .fill-yellow-l { fill: var(--yellow); }
  .fill-light-yellow-l { fill: var(--light-yellow); }
  .fill-purple-l { fill: var(--purple); }
