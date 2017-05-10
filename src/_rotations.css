@@ -1,9 +1,0 @@
-@media (--breakpoint-x-large) {
- .rotate-45-xl { transform: rotate( 45deg ); }
- .rotate-90-xl { transform: rotate( 90deg ); }
- .rotate-135-xl { transform: rotate( 135deg ); }
- .rotate-180-xl { transform: rotate( 180deg ); }
- .rotate-225-xl { transform: rotate( 225deg ); }
- .rotate-270-xl { transform: rotate( 270deg ); }
- .rotate-315-xl { transform: rotate( 315deg ); }
-}

@@ -1,5 +1,0 @@
-@media (--breakpoint-x-large) {
- .fl-xl { float: left; _display: inline; }
- .fr-xl { float: right; _display: inline; }
- .fn-xl { float: none; }
-}

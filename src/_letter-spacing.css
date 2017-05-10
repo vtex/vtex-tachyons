@@ -1,5 +1,0 @@
-@media (--breakpoint-x-large) {
- .tracked-xl { letter-spacing: .1em; }
- .tracked-tight-xl { letter-spacing: -.05em; }
- .tracked-mega-xl { letter-spacing: .25em; }
-}

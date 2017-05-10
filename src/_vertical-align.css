@@ -1,6 +1,0 @@
-@media (--breakpoint-x-large) {
- .v-base-xl { vertical-align: baseline; }
- .v-mid-xl { vertical-align: middle; }
- .v-top-xl { vertical-align: top; }
- .v-btm-xl { vertical-align: bottom; }
-}
