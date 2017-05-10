@@ -1,13 +1,3 @@
-.dark-tangerine { color: var(--dark-tangerine); }
-.tangerine { color: var(--tangerine); }
-.light-tangerine { color: var(--light-tangerine); }
-.lightest-tangerine { color: var(--lightest-tangerine); }
-
-.bg-dark-tangerine { background-color: var(--dark-tangerine); }
-.bg-tangerine { background-color: var(--tangerine); }
-.bg-light-tangerine { background-color: var(--light-tangerine); }
-.bg-lightest-tangerine { background-color: var(--lightest-tangerine); }
-
 @media (--breakpoint-not-small) {
  .black-90-ns { color: var(--black-90); }
  .black-80-ns { color: var(--black-80); }
@@ -43,10 +33,6 @@
  .red-ns { color: var(--red); }
  .light-red-ns { color: var(--light-red); }
  .orange-ns { color: var(--orange); }
- .dark-tangerine-ns { color: var(--dark-tangerine); }
- .light-tangerine-ns { color: var(--light-tangerine); }
- .tangerine-ns { color: var(--tangerine); }
- .lightest-tangerine-ns { color: var(--lightest-tangerine); }
  .gold-ns { color: var(--gold); }
  .yellow-ns { color: var(--yellow); }
  .light-yellow-ns { color: var(--light-yellow); }
@@ -105,10 +91,6 @@
  .bg-light-red-ns { background-color: var(--light-red); }
  .bg-orange-ns { background-color: var(--orange); }
  .bg-gold-ns { background-color: var(--gold); }
- .bg-dark-tangerine-ns { color: var(--dark-tangerine); }
- .bg-light-tangerine-ns { color: var(--light-tangerine); }
- .bg-tangerine-ns { color: var(--tangerine); }
- .bg-lightest-tangerine-ns { color: var(--lightest-tangerine); }
  .bg-yellow-ns { background-color: var(--yellow); }
  .bg-light-yellow-ns { background-color: var(--light-yellow); }
  .bg-purple-ns { background-color: var(--purple); }
@@ -168,10 +150,6 @@
  .light-red-m { color: var(--light-red); }
  .orange-m { color: var(--orange); }
  .gold-m { color: var(--gold); }
- .dark-tangerine-m { color: var(--dark-tangerine); }
- .tangerine-m { color: var(--tangerine); }
- .light-tangerine-m { color: var(--light-tangerine); }
- .lightest-tangerine-m { color: var(--lightest-tangerine); }
  .yellow-m { color: var(--yellow); }
  .light-yellow-m { color: var(--light-yellow); }
  .purple-m { color: var(--purple); }
@@ -229,10 +207,6 @@
  .bg-light-red-m { background-color: var(--light-red); }
  .bg-orange-m { background-color: var(--orange); }
  .bg-gold-m { background-color: var(--gold); }
- .bg-dark-tangerine-m { color: var(--dark-tangerine); }
- .bg-tangerine-m { color: var(--tangerine); }
- .bg-light-tangerine-m { color: var(--light-tangerine); }
- .bg-lightest-tangerine-m { color: var(--lightest-tangerine); }
  .bg-yellow-m { background-color: var(--yellow); }
  .bg-light-yellow-m { background-color: var(--light-yellow); }
  .bg-purple-m { background-color: var(--purple); }
@@ -292,10 +266,6 @@
  .light-red-l { color: var(--light-red); }
  .orange-l { color: var(--orange); }
  .gold-l { color: var(--gold); }
- .dark-tangerine-l { color: var(--dark-tangerine); }
- .tangerine-l { color: var(--tangerine); }
- .light-tangerine-l { color: var(--light-tangerine); }
- .lightest-tangerine-l { color: var(--lightest-tangerine); }
  .yellow-l { color: var(--yellow); }
  .light-yellow-l { color: var(--light-yellow); }
  .purple-l { color: var(--purple); }
@@ -353,10 +323,6 @@
  .bg-light-red-l { background-color: var(--light-red); }
  .bg-orange-l { background-color: var(--orange); }
  .bg-gold-l { background-color: var(--gold); }
- .bg-dark-tangerine-l { color: var(--dark-tangerine); }
- .bg-tangerine-l { color: var(--tangerine); }
- .bg-light-tangerine-l { color: var(--light-tangerine); }
- .bg-lightest-tangerine-l { color: var(--lightest-tangerine); }
  .bg-yellow-l { background-color: var(--yellow); }
  .bg-light-yellow-l { background-color: var(--light-yellow); }
  .bg-purple-l { background-color: var(--purple); }
@@ -416,10 +382,6 @@
  .light-red-xl { color: var(--light-red); }
  .orange-xl { color: var(--orange); }
  .gold-xl { color: var(--gold); }
- .dark-tangerine-xl { background-color: var(--dark-tangerine); }
- .tangerine-xl { background-color: var(--tangerine); }
- .light-tangerine-xl { background-color: var(--light-tangerine); }
- .lightest-tangerine-xl { background-color: var(--lightest-tangerine); }
  .yellow-xl { color: var(--yellow); }
  .light-yellow-xl { color: var(--light-yellow); }
  .purple-xl { color: var(--purple); }
@@ -477,10 +439,6 @@
  .bg-light-red-xl { background-color: var(--light-red); }
  .bg-orange-xl { background-color: var(--orange); }
  .bg-gold-xl { background-color: var(--gold); }
- .bg-dark-tangerine-xl { background-color: var(--dark-tangerine); }
- .bg-tangerine-xl { background-color: var(--tangerine); }
- .bg-light-tangerine-xl { background-color: var(--light-tangerine); }
- .bg-lightest-tangerine-xl { background-color: var(--lightest-tangerine); }
  .bg-yellow-xl { background-color: var(--yellow); }
  .bg-light-yellow-xl { background-color: var(--light-yellow); }
  .bg-purple-xl { background-color: var(--purple); }
