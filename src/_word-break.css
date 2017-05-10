@@ -1,5 +1,0 @@
-@media (--breakpoint-x-large) {
- .word-normal-xl { word-break: normal; }
- .word-wrap-xl { word-break: break-all; }
- .word-nowrap-xl { word-break: keep-all; }
-}

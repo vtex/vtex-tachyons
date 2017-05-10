@@ -1,6 +1,0 @@
-@media (--breakpoint-x-large) {
- .static-xl { position: static; }
- .relative-xl { position: relative; }
- .absolute-xl { position: absolute; }
- .fixed-xl { position: fixed; }
-}

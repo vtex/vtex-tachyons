@@ -9,6 +9,3 @@
 @media (--breakpoint-large) {
  .f7-l { font-size: .75em; }
 }
-@media (--breakpoint-x-large) {
- .f7-xl { font-size: .75em; }
-}

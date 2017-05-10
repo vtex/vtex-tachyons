@@ -1,4 +1,0 @@
-@media (--breakpoint-x-large) {
- .cover-xl { background-size: cover !important; }
- .contain-xl { background-size: contain !important; }
-}
