@@ -382,10 +382,6 @@
  .light-red-xl { color: var(--light-red); }
  .orange-xl { color: var(--orange); }
  .gold-xl { color: var(--gold); }
- .dark-tangerine-xl { background-color: var(--dark-tangerine); }
- .tangerine-xl { background-color: var(--tangerine); }
- .light-tangerine-xl { background-color: var(--light-tangerine); }
- .lightest-tangerine-xl { background-color: var(--lightest-tangerine); }
  .yellow-xl { color: var(--yellow); }
  .light-yellow-xl { color: var(--light-yellow); }
  .purple-xl { color: var(--purple); }
@@ -443,10 +439,6 @@
  .bg-light-red-xl { background-color: var(--light-red); }
  .bg-orange-xl { background-color: var(--orange); }
  .bg-gold-xl { background-color: var(--gold); }
- .bg-dark-tangerine-xl { background-color: var(--dark-tangerine); }
- .bg-tangerine-xl { background-color: var(--tangerine); }
- .bg-light-tangerine-xl { background-color: var(--light-tangerine); }
- .bg-lightest-tangerine-xl { background-color: var(--lightest-tangerine); }
  .bg-yellow-xl { background-color: var(--yellow); }
  .bg-light-yellow-xl { background-color: var(--light-yellow); }
  .bg-purple-xl { background-color: var(--purple); }
