@@ -19,6 +19,22 @@ Link in your application:
 <link rel="stylesheet" href="theme.min.css">
 ```
 
+or use the CDN
+
+You can always grab the latest version with:
+
+```html
+<link rel="stylesheet" href="https://unpkg.com/vtex-tachyons/css/vtex-tachyons.min.css">
+<link rel="stylesheet" href="theme.min.css">
+```
+
+You can also specify a specific version:
+
+```html
+<link rel="stylesheet" href="https://unpkg.com/vtex-tachyons@0.1.5/css/vtex-tachyons.min.css">
+<link rel="stylesheet" href="theme.min.css">
+```
+
 or
 
 ```js
