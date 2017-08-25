@@ -1,0 +1,17 @@
+.hidden { visibility: hidden; }
+.visually-hidden { position: absolute; left: -999em; }
+
+@media (--breakpoint-not-small) {
+  .hidden-ns { visibility: hidden; }
+  .visually-hidden-ns { position: absolute; left: -999em; }
+}
+
+@media (--breakpoint-medium) {
+  .hidden-m { visibility: hidden; }
+  .visually-hidden-m { position: absolute; left: -999em; }
+}
+
+@media (--breakpoint-large) {
+  .hidden-l { visibility: hidden; }
+  .visually-hidden-l { position: absolute; left: -999em; }
+}

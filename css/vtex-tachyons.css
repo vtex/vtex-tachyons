@@ -2086,6 +2086,8 @@ button, input, optgroup, select, textarea { font-family: sans-serif; font-size: 
  */
 fieldset { border: 1px solid #c0c0c0; margin: 0 2px; padding: .35em .625em .75em; }
 /* VTEX custom changes */
+.hidden { visibility: hidden; }
+.visually-hidden { position: absolute; left: -999em; }
 /*
 
    FONT FAMILY GROUPS
@@ -2618,6 +2620,8 @@ body, button, input, optgroup, select, textarea { font-family: 'Fabriga', -apple
  .v-mid-ns { vertical-align: middle; }
  .v-top-ns { vertical-align: top; }
  .v-btm-ns { vertical-align: bottom; }
+ .hidden-ns { visibility: hidden; }
+ .visually-hidden-ns { position: absolute; left: -999em; }
  .fill-black-90-ns { fill: rgba( 0, 0, 0, .9 ); }
  .fill-black-80-ns { fill: rgba( 0, 0, 0, .8 ); }
  .fill-black-70-ns { fill: rgba( 0, 0, 0, .7 ); }
@@ -3203,6 +3207,8 @@ body, button, input, optgroup, select, textarea { font-family: 'Fabriga', -apple
  .v-mid-m { vertical-align: middle; }
  .v-top-m { vertical-align: top; }
  .v-btm-m { vertical-align: bottom; }
+ .hidden-m { visibility: hidden; }
+ .visually-hidden-m { position: absolute; left: -999em; }
  .fill-black-90-m { fill: rgba( 0, 0, 0, .9 ); }
  .fill-black-80-m { fill: rgba( 0, 0, 0, .8 ); }
  .fill-black-70-m { fill: rgba( 0, 0, 0, .7 ); }
@@ -3788,6 +3794,8 @@ body, button, input, optgroup, select, textarea { font-family: 'Fabriga', -apple
  .v-mid-l { vertical-align: middle; }
  .v-top-l { vertical-align: top; }
  .v-btm-l { vertical-align: bottom; }
+ .hidden-l { visibility: hidden; }
+ .visually-hidden-l { position: absolute; left: -999em; }
  .fill-black-90-l { fill: rgba( 0, 0, 0, .9 ); }
  .fill-black-80-l { fill: rgba( 0, 0, 0, .8 ); }
  .fill-black-70-l { fill: rgba( 0, 0, 0, .7 ); }
