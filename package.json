@@ -1,6 +1,6 @@
 {
   "name": "vtex-tachyons",
-  "version": "0.1.5",
+  "version": "0.2.5",
   "description": "Functional CSS for humans — customized by the VTEX team",
   "author": "vtex",
   "style": "css/vtex-tachyons.min.css",
@@ -26,6 +26,7 @@
   "contributors": [
     "Daniel Fosco (http://danielfos.co)",
     "Zeh Fernandes (http://zehfernandes.com)"
+    "Gabriel Galc (http://gabrielgalc.com)"
   ],
   "scripts": {
     "start": "npm run build:watch",
@@ -44,7 +45,7 @@
   "devDependencies": {
     "copy-files": "^0.1.0",
     "immutable-css-cli": "^1.1.1",
-    "tachyons": "4.7.1",
+    "tachyons": "4.8.0",
     "tachyons-modules": "^1.1.8",
     "tachyons-cli": "^1.0.10",
     "watch": "^1.0.1"
