@@ -447,6 +447,7 @@ img { max-width: 100%; }
 .b--washed-green { border-color: #e8fdf5; }
 .b--washed-yellow { border-color: #fffceb; }
 .b--washed-red { border-color: #ffdfdf; }
+.b--vtex-pink { border-color: #f71963; }
 .b--transparent { border-color: transparent; }
 .b--inherit { border-color: inherit; }
 /*
@@ -2178,6 +2179,7 @@ body, button, input, optgroup, select, textarea { font-family: 'Fabriga', -apple
 .fill-washed-yellow { fill: #fffceb; }
 .fill-washed-red { fill: #ffdfdf; }
 .fill-vtex-blue { fill: #003b5e; }
+.fill-vtex-pink { fill: #f71963; }
 .f7 { font-size: .75em; }
 /* Variables */
 /* Importing here will allow you to override any variables in the modules */
@@ -2698,6 +2700,7 @@ body, button, input, optgroup, select, textarea { font-family: 'Fabriga', -apple
  .fill-washed-yellow-ns { fill: #fffceb; }
  .fill-washed-red-ns { fill: #ffdfdf; }
  .fill-vtex-blue-ns { fill: #003b5e; }
+ .fill-vtex-pink-ns { fill: #f71963; }
  .black-90-ns { color: rgba( 0, 0, 0, .9 ); }
  .black-80-ns { color: rgba( 0, 0, 0, .8 ); }
  .black-70-ns { color: rgba( 0, 0, 0, .7 ); }
@@ -2754,6 +2757,7 @@ body, button, input, optgroup, select, textarea { font-family: 'Fabriga', -apple
  .washed-yellow-ns { color: #fffceb; }
  .washed-red-ns { color: #ffdfdf; }
  .vtex-blue-ns { color: #003b5e; }
+ .vtex-pink-ns { color: #f71963; }
  .bg-black-90-ns { background-color: rgba( 0, 0, 0, .9 ); }
  .bg-black-80-ns { background-color: rgba( 0, 0, 0, .8 ); }
  .bg-black-70-ns { background-color: rgba( 0, 0, 0, .7 ); }
@@ -2811,6 +2815,7 @@ body, button, input, optgroup, select, textarea { font-family: 'Fabriga', -apple
  .bg-washed-yellow-ns { background-color: #fffceb; }
  .bg-washed-red-ns { background-color: #ffdfdf; }
  .bg-vtex-blue-ns { background-color: #003b5e; }
+ .bg-vtex-pink-ns { background-color: #f71963; }
  .f7-ns { font-size: .75em; }
 }
 @media screen and (min-width: 30em) and (max-width: 80em) {
@@ -3290,6 +3295,7 @@ body, button, input, optgroup, select, textarea { font-family: 'Fabriga', -apple
  .fill-washed-yellow-m { fill: #fffceb; }
  .fill-washed-red-m { fill: #ffdfdf; }
  .fill-vtex-blue-m { fill: #003b5e; }
+ .fill-vtex-pink-m { fill: #f71963; }
  .black-90-m { color: rgba( 0, 0, 0, .9 ); }
  .black-80-m { color: rgba( 0, 0, 0, .8 ); }
  .black-70-m { color: rgba( 0, 0, 0, .7 ); }
@@ -3346,6 +3352,7 @@ body, button, input, optgroup, select, textarea { font-family: 'Fabriga', -apple
  .washed-yellow-m { color: #fffceb; }
  .washed-red-m { color: #ffdfdf; }
  .vtex-blue-m { color: #003b5e; }
+ .vtex-pink-m { color: #f71963; }
  .bg-black-90-m { background-color: rgba( 0, 0, 0, .9 ); }
  .bg-black-80-m { background-color: rgba( 0, 0, 0, .8 ); }
  .bg-black-70-m { background-color: rgba( 0, 0, 0, .7 ); }
@@ -3403,6 +3410,7 @@ body, button, input, optgroup, select, textarea { font-family: 'Fabriga', -apple
  .bg-washed-yellow-m { background-color: #fffceb; }
  .bg-washed-red-m { background-color: #ffdfdf; }
  .bg-vtex-blue-m { background-color: #003b5e; }
+ .bg-vtex-pink-m { background-color: #f71963; }
  .f7-m { font-size: .75em; }
 }
 @media screen and (min-width: 80em) {
@@ -3882,6 +3890,7 @@ body, button, input, optgroup, select, textarea { font-family: 'Fabriga', -apple
  .fill-washed-yellow-l { fill: #fffceb; }
  .fill-washed-red-l { fill: #ffdfdf; }
  .fill-vtex-blue-l { fill: #003b5e; }
+ .fill-vtex-pink-l { fill: #f71963; }
  .black-90-l { color: rgba( 0, 0, 0, .9 ); }
  .black-80-l { color: rgba( 0, 0, 0, .8 ); }
  .black-70-l { color: rgba( 0, 0, 0, .7 ); }
@@ -3938,6 +3947,7 @@ body, button, input, optgroup, select, textarea { font-family: 'Fabriga', -apple
  .washed-yellow-l { color: #fffceb; }
  .washed-red-l { color: #ffdfdf; }
  .vtex-blue-l { color: #003b5e; }
+ .vtex-pink-l { color: #f71963; }
  .bg-black-90-l { background-color: rgba( 0, 0, 0, .9 ); }
  .bg-black-80-l { background-color: rgba( 0, 0, 0, .8 ); }
  .bg-black-70-l { background-color: rgba( 0, 0, 0, .7 ); }
@@ -3995,6 +4005,7 @@ body, button, input, optgroup, select, textarea { font-family: 'Fabriga', -apple
  .bg-washed-yellow-l { background-color: #fffceb; }
  .bg-washed-red-l { background-color: #ffdfdf; }
  .bg-vtex-blue-l { background-color: #003b5e; }
+ .bg-vtex-pink-l { background-color: #f71963; }
  .f7-l { font-size: .75em; }
 }
 
