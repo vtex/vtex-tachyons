@@ -447,6 +447,7 @@ img { max-width: 100%; }
 .b--washed-green { border-color: #e8fdf5; }
 .b--washed-yellow { border-color: #fffceb; }
 .b--washed-red { border-color: #ffdfdf; }
+.b--vtex-pink { border-color: #f71963; }
 .b--transparent { border-color: transparent; }
 .b--inherit { border-color: inherit; }
 /*
