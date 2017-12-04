@@ -1175,6 +1175,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .washed-green { color: #e8fdf5; }
 .washed-yellow { color: #fffceb; }
 .washed-red { color: #ffdfdf; }
+.vtex-pink { color: #f71963; }
 .color-inherit { color: inherit; }
 .bg-black-90 { background-color: rgba( 0, 0, 0, .9 ); }
 .bg-black-80 { background-color: rgba( 0, 0, 0, .8 ); }
