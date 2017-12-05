@@ -2101,6 +2101,8 @@ button, input, optgroup, select, textarea { font-family: sans-serif; font-size: 
  */
 fieldset { border: 1px solid #c0c0c0; margin: 0 2px; padding: .35em .625em .75em; }
 /* VTEX custom changes */
+.b--vtex-pink { border-color: #f71963; }
+.b--vtex-blue { border-color: #003b5e; }
 .hidden { visibility: hidden; }
 .visually-hidden { position: absolute; left: -999em; }
 /*
