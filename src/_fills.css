@@ -54,6 +54,7 @@
 .fill-washed-yellow { fill: var(--washed-yellow); }
 .fill-washed-red { fill: var(--washed-red); }
 .fill-vtex-blue { fill: var(--vtex-blue); }
+.fill-vtex-pink { fill: var(--vtex-pink); }
 
 @media (--breakpoint-not-small) {
  .fill-black-90-ns { fill: var(--black-90); }
@@ -112,6 +113,7 @@
  .fill-washed-yellow-ns { fill: var(--washed-yellow); }
  .fill-washed-red-ns { fill: var(--washed-red); }
  .fill-vtex-blue-ns { fill: var(--vtex-blue); }
+ .fill-vtex-pink-ns { fill: var(--vtex-pink); }
 }
 
 @media (--breakpoint-medium) {
@@ -171,6 +173,7 @@
  .fill-washed-yellow-m { fill: var(--washed-yellow); }
  .fill-washed-red-m { fill: var(--washed-red); }
  .fill-vtex-blue-m { fill: var(--vtex-blue); }
+ .fill-vtex-pink-m { fill: var(--vtex-pink); }
 }
 
 @media (--breakpoint-large) {
@@ -230,4 +233,5 @@
  .fill-washed-yellow-l { fill: var(--washed-yellow); }
  .fill-washed-red-l { fill: var(--washed-red); }
  .fill-vtex-blue-l { fill: var(--vtex-blue); }
+ .fill-vtex-pink-l { fill: var(--vtex-pink); }
 }

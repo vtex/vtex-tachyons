@@ -36,7 +36,7 @@
     "build:css": "tachyons src/index.css > css/vtex-tachyons.css",
     "build:minify": "tachyons src/index.css -m > css/vtex-tachyons.min.css",
     "build:watch": "watch 'npm run build' ./src/",
-    "prepublish": "npm run build"
+    "prepare": "npm run build"
   },
   "bugs": {
     "url": "https://github.com/vtex/vtex-tachyons/issues"

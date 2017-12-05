@@ -1454,9 +1454,9 @@ tachyons-modules@^1.1.8:
     is-present "^1.0.0"
     pinkie-promise "^2.0.1"
 
-tachyons@4.7.1:
-  version "4.7.1"
-  resolved "https://registry.yarnpkg.com/tachyons/-/tachyons-4.7.1.tgz#2ca7295f3eb081470e54d23ef94fffe4322153b4"
+tachyons@4.8.0:
+  version "4.8.0"
+  resolved "https://registry.yarnpkg.com/tachyons/-/tachyons-4.8.0.tgz#9174723241afec6588245c83f9242d24fd7ba0c4"
 
 timed-out@^4.0.0:
   version "4.0.1"

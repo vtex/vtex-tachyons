@@ -55,6 +55,7 @@
  .washed-yellow-ns { color: var(--washed-yellow); }
  .washed-red-ns { color: var(--washed-red); }
  .vtex-blue-ns { color: var(--vtex-blue); }
+ .vtex-pink-ns { color: var(--vtex-pink); }
  .bg-black-90-ns { background-color: var(--black-90); }
  .bg-black-80-ns { background-color: var(--black-80); }
  .bg-black-70-ns { background-color: var(--black-70); }
@@ -112,6 +113,7 @@
  .bg-washed-yellow-ns { background-color: var(--washed-yellow); }
  .bg-washed-red-ns { background-color: var(--washed-red); }
  .bg-vtex-blue-ns { background-color: var(--vtex-blue); }
+ .bg-vtex-pink-ns { background-color: var(--vtex-pink); }
 }
 
 @media (--breakpoint-medium) {
@@ -171,6 +173,7 @@
  .washed-yellow-m { color: var(--washed-yellow); }
  .washed-red-m { color: var(--washed-red); }
  .vtex-blue-m { color: var(--vtex-blue); }
+ .vtex-pink-m { color: var(--vtex-pink); }
  .bg-black-90-m { background-color: var(--black-90); }
  .bg-black-80-m { background-color: var(--black-80); }
  .bg-black-70-m { background-color: var(--black-70); }
@@ -228,6 +231,7 @@
  .bg-washed-yellow-m { background-color: var(--washed-yellow); }
  .bg-washed-red-m { background-color: var(--washed-red); }
  .bg-vtex-blue-m { background-color: var(--vtex-blue); }
+ .bg-vtex-pink-m { background-color: var(--vtex-pink); }
 }
 
 @media (--breakpoint-large) {
@@ -287,6 +291,7 @@
  .washed-yellow-l { color: var(--washed-yellow); }
  .washed-red-l { color: var(--washed-red); }
  .vtex-blue-l { color: var(--vtex-blue); }
+ .vtex-pink-l { color: var(--vtex-pink); }
  .bg-black-90-l { background-color: var(--black-90); }
  .bg-black-80-l { background-color: var(--black-80); }
  .bg-black-70-l { background-color: var(--black-70); }
@@ -344,4 +349,5 @@
  .bg-washed-yellow-l { background-color: var(--washed-yellow); }
  .bg-washed-red-l { background-color: var(--washed-red); }
  .bg-vtex-blue-l { background-color: var(--vtex-blue); }
+ .bg-vtex-pink-l { background-color: var(--vtex-pink); }
 }
