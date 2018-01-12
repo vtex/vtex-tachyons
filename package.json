@@ -20,7 +20,7 @@
     "url": "https://github.com/vtex/vtex-tachyons/issues"
   },
   "homepage": "https://github.com/vtex/vtex-tachyons#readme",
-  "dependencies": {
-    "tachyons-generator": "git+https://github.com/vtex/tachyons-generator.git"
+  "devDependencies": {
+    "tachyons-generator": "git+https://github.com/vtex/tachyons-generator.git#v0.19.1-vtex"
   }
 }
