@@ -1,53 +1,26 @@
 {
   "name": "vtex-tachyons",
-  "version": "0.2.8",
-  "description": "Functional CSS for humans — customized by the VTEX team",
-  "author": "vtex",
-  "style": "css/vtex-tachyons.min.css",
-  "main": "css/vtex-tachyons.css",
-  "files": [
-    "css",
-    "src"
-  ],
+  "version": "1.0.0",
+  "description": "This project is an **extension** of [tachyons](https://github.com/tachyons-css/tachyons). Files in `src/` add or redefine classes in `tachyons`, and the final built files bundle the original `tachyons`.",
+  "main": "tachyons.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vtex/vtex-tachyons.git"
   },
   "keywords": [
-    "css",
-    "oocss",
-    "postcss",
-    "functional css",
-    "design",
-    "responsive",
-    "performance"
+    "vtex",
+    "tachyons"
   ],
+  "author": "Breno Calazans (@klzs)",
   "license": "MIT",
-  "contributors": [
-    "Daniel Fosco (http://danielfos.co)",
-    "Zeh Fernandes (http://zehfernandes.com)",
-    "Gabriel Galc (http://gabrielgalc.com)"
-  ],
-  "scripts": {
-    "start": "npm run build:watch",
-    "updateMedia": "tachyons src --customMedia --variables=src/_media-queries.css --overwrite=false",
-    "mutations": "immutable-css src/index.css --strict",
-    "build": "npm run build:css && npm run build:minify",
-    "build:css": "tachyons src/index.css > css/vtex-tachyons.css",
-    "build:minify": "tachyons src/index.css -m > css/vtex-tachyons.min.css",
-    "build:watch": "watch 'npm run build' ./src/",
-    "prepare": "npm run build"
-  },
   "bugs": {
     "url": "https://github.com/vtex/vtex-tachyons/issues"
   },
   "homepage": "https://github.com/vtex/vtex-tachyons#readme",
-  "devDependencies": {
-    "copy-files": "^0.1.0",
-    "immutable-css-cli": "^1.1.1",
-    "tachyons": "4.8.0",
-    "tachyons-modules": "^1.1.8",
-    "tachyons-cli": "^1.0.10",
-    "watch": "^1.0.1"
+  "dependencies": {
+    "tachyons-generator": "git+https://github.com/vtex/tachyons-generator.git"
   }
 }
