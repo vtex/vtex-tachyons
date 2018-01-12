@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/vtex/vtex-tachyons#readme",
   "dependencies": {
-    "tachyons-generator": "git+https://github.com/vtex/tachyons-generator.git"
+    "tachyons-generator": "git+https://github.com/vtex/tachyons-generator.git#v0.19.0-vtex"
   }
 }
