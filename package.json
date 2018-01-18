@@ -1,6 +1,6 @@
 {
   "name": "vtex-tachyons",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This project is an **extension** of [tachyons](https://github.com/tachyons-css/tachyons). Files in `src/` add or redefine classes in `tachyons`, and the final built files bundle the original `tachyons`.",
   "main": "tachyons.css",
   "scripts": {
@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/vtex/vtex-tachyons#readme",
   "devDependencies": {
-    "tachyons-generator": "git+https://github.com/vtex/tachyons-generator.git#v0.19.1-vtex"
+    "tachyons-generator": "git+https://github.com/vtex/tachyons-generator.git#v0.19.2-vtex"
   }
 }
