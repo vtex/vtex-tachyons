@@ -4,7 +4,7 @@
   "description": "This project is an **extension** of [tachyons](https://github.com/tachyons-css/tachyons). Files in `src/` add or redefine classes in `tachyons`, and the final built files bundle the original `tachyons`.",
   "main": "tachyons.css",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepublishOnly": "node index.js"
   },
   "repository": {
     "type": "git",
