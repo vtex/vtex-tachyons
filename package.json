@@ -1,6 +1,6 @@
 {
   "name": "vtex-tachyons",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "This project is an **extension** of [tachyons](https://github.com/tachyons-css/tachyons). Files in `src/` add or redefine classes in `tachyons`, and the final built files bundle the original `tachyons`.",
   "main": "tachyons.css",
   "scripts": {
