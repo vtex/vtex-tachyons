@@ -5,14 +5,21 @@
   "spacing": [0.125, 0.25, 0.5, 0.75, 1, 1.5, 2, 3, 4, 8, 16],
   "customMedia": [
     { "s": 20 },
-    { "ns": {
+    { "m": {
         "value": 40,
         "minWidth": true
       }
     },
-    { "m": 40 },
-    { "l": 64 },
-    { "xl": 80 }
+    { "l": {
+      "value": 64,
+      "minWidth": true
+    }
+    },
+    { "xl": {
+        "value": 80,
+        "minWidth": true
+      }
+    }
   ],
   "colors": {
     "rebel-pink": "#F71963",
