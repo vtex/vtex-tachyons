@@ -1715,9 +1715,9 @@ tachyons-build-css@^1.5.1:
     postcss-import "^9.1.0"
     postcss-rtl "^1.1.3"
 
-"tachyons-generator@git+https://github.com/vtex/tachyons-generator.git#v0.19.3-vtex":
-  version "0.19.1"
-  resolved "git+https://github.com/vtex/tachyons-generator.git#09d0e5177b0802257e1be72a8bed046f0e93b7f7"
+"tachyons-generator@git+https://github.com/vtex/tachyons-generator.git#v0.19.4-vtex":
+  version "0.20.0"
+  resolved "git+https://github.com/vtex/tachyons-generator.git#e0bcbda4f41c39f00c268c7662cc89194e91d509"
   dependencies:
     camelcase "^4.1.0"
     colorable "^1.0.5"
