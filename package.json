@@ -1,7 +1,7 @@
 {
   "name": "vtex-tachyons",
   "version": "1.0.5",
-  "description": "This project is an **extension** of [tachyons](https://github.com/tachyons-css/tachyons). Files in `src/` add or redefine classes in `tachyons`, and the final built files bundle the original `tachyons`.",
+  "description": "A custom Tachyons for VTEX",
   "main": "tachyons.css",
   "scripts": {
     "prepublishOnly": "node index.js"
@@ -14,7 +14,7 @@
     "vtex",
     "tachyons"
   ],
-  "author": "Breno Calazans (@klzs)",
+  "author": "Breno Calazans (@klzns)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/vtex/vtex-tachyons/issues"
