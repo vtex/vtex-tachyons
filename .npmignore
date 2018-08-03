@@ -1,0 +1,2 @@
+# Keep this file so config.json will be published to npm
+# more info here: https://stackoverflow.com/questions/24942161/does-npm-ignore-files-listed-in-gitignore

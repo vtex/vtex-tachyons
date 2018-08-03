@@ -1,6 +1,14 @@
 const fs = require('fs')
+const path = require('path')
 const tachyonsGenerator = require('tachyons-generator')
-const config = require('./config.json')
+const config = require('./config.js')
+
+// Write config file as JSON to keep API compatibility
+fs.writeFileSync(
+  path.join(__dirname, 'config.json'),
+  JSON.stringify(config, null, 2),
+  'utf8'
+)
 
 const generate = async () => {
   const tachy = tachyonsGenerator(config)
