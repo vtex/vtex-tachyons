@@ -226,9 +226,9 @@ module.exports = {
       "action-secondary": "#134cd8",
       "emphasis": "#ffffff",
       "disabled": "#979899",
-      "success": "#ffffff",//DEPRECATE
+      "success": "#ffffff",
       "success--faded": "#3f3f40",
-      "danger": "#ffffff",//DEPRECATE
+      "danger": "#ffffff",
       "danger--faded": "#3f3f40",
       "warning": "#ffffff",
       "warning--faded": "#1a1a1a",
@@ -242,9 +242,9 @@ module.exports = {
       "action-primary": "#ffffff",
       "action-secondary": "#134cd8",
       "emphasis": "#ffffff",
-      "success": "#ffffff",//DEPRECATE
+      "success": "#ffffff",
       "success--faded": "#3f3f40",
-      "danger": "#ffffff",//DEPRECATE
+      "danger": "#ffffff",
       "danger--faded": "#3f3f40",
       "warning": "#ffffff",
       "warning--faded": "#1a1a1a",
@@ -258,9 +258,9 @@ module.exports = {
       "action-primary": "#ffffff",
       "action-secondary": "#134cd8",
       "emphasis": "#ffffff",
-      "success": "#ffffff",//DEPRECATE
+      "success": "#ffffff",
       "success--faded": "#3f3f40",
-      "danger": "#ffffff",//DEPRECATE
+      "danger": "#ffffff",
       "danger--faded": "#3f3f40",
       "warning": "#ffffff",
       "warning--faded": "#1a1a1a",
