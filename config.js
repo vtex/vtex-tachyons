@@ -93,8 +93,6 @@ module.exports = {
       "danger--faded": "#ffe6e6",
       "warning": "#ffb100",
       "warning--faded": "#fff6e0",
-      "info": "#edf4fa", //DEPRECATE
-      "info--faded": "#edf4fa", //DEPRECATE
       "muted-1": "#727273",
       "muted-2": "#979899",
       "muted-3": "#cacbcc",
@@ -111,8 +109,6 @@ module.exports = {
       "danger--faded": "#ffe6e6",
       "warning": "#ffb100",
       "warning--faded": "#fff6e0",
-      "info": "#edf4fa", //DEPRECATE
-      "info--faded": "#edf4fa", //DEPRECATE
       "muted-1": "#727273",
       "muted-2": "#979899",
       "muted-3": "#cacbcc",
@@ -129,8 +125,6 @@ module.exports = {
       "danger--faded": "#ffe6e6",
       "warning": "#ffb100",
       "warning--faded": "#fff6e0",
-      "info": "#edf4fa", //DEPRECATE
-      "info--faded": "#edf4fa", //DEPRECATE
       "muted-1": "#727273",
       "muted-2": "#979899",
       "muted-3": "#cacbcc",
@@ -148,8 +142,6 @@ module.exports = {
       "danger--faded": "#ffe6e6",
       "warning": "#ffb100",
       "warning--faded": "#fff6e0",
-      "info": "#edf4fa", //DEPRECATE
-      "info--faded": "#edf4fa", //DEPRECATE
       "muted-1": "#727273",
       "muted-2": "#979899",
       "muted-3": "#cacbcc",
@@ -165,9 +157,7 @@ module.exports = {
       "danger": "#ff4c4c",
       "danger--faded": "#ffe6e6",
       "warning": "#ffb100",
-      "warning--faded": "#fff6e0",
-      "info": "#edf4fa", //DEPRECATE
-      "info--faded": "#edf4fa" //DEPRECATE
+      "warning--faded": "#fff6e0"
     },
     "active-text": {
       "link": "#0c389f",
@@ -178,9 +168,7 @@ module.exports = {
       "danger": "#ff4c4c",
       "danger--faded": "#ffe6e6",
       "warning": "#ffb100",
-      "warning--faded": "#fff6e0",
-      "info": "#edf4fa", //DEPRECATE
-      "info--faded": "#edf4fa" //DEPRECATE
+      "warning--faded": "#fff6e0"
     },
     "border": {
       "action-primary": "#1346d8",
@@ -193,8 +181,6 @@ module.exports = {
       "danger--faded": "#ffe6e6",
       "warning": "#ffb100",
       "warning--faded": "#fff6e0",
-      "info": "#edf4fa", //DEPRECATE
-      "info--faded": "#edf4fa", //DEPRECATE
       "muted-1": "#727273",
       "muted-2": "#979899",
       "muted-3": "#cacbcc",
@@ -211,8 +197,6 @@ module.exports = {
       "danger--faded": "#ffe6e6",
       "warning": "#ffb100",
       "warning--faded": "#fff6e0",
-      "info": "#edf4fa", //DEPRECATE
-      "info--faded": "#edf4fa", //DEPRECATE
       "muted-1": "#727273",
       "muted-2": "#979899",
       "muted-3": "#cacbcc",
@@ -229,8 +213,6 @@ module.exports = {
       "danger--faded": "#ffe6e6",
       "warning": "#ffb100",
       "warning--faded": "#fff6e0",
-      "info": "#edf4fa", //DEPRECATE
-      "info--faded": "#edf4fa", //DEPRECATE
       "muted-1": "#727273",
       "muted-2": "#979899",
       "muted-3": "#cacbcc",
@@ -250,8 +232,6 @@ module.exports = {
       "danger--faded": "#3f3f40",
       "warning": "#ffffff",
       "warning--faded": "#1a1a1a",
-      "info": "#3f3f40",//DEPRECATE
-      "info--faded": "#3f3f40",//DEPRECATE
       "muted-1": "#ffffff",
       "muted-2": "#ffffff",
       "muted-3": "#3f3f40",
@@ -268,8 +248,6 @@ module.exports = {
       "danger--faded": "#3f3f40",
       "warning": "#ffffff",
       "warning--faded": "#1a1a1a",
-      "info": "#3f3f40",//DEPRECATE
-      "info--faded": "#3f3f40",//DEPRECATE
       "muted-1": "#ffffff",
       "muted-2": "#ffffff",
       "muted-3": "#3f3f40",
@@ -286,8 +264,6 @@ module.exports = {
       "danger--faded": "#3f3f40",
       "warning": "#ffffff",
       "warning--faded": "#1a1a1a",
-      "info": "#3f3f40",//DEPRECATE
-      "info--faded": "#3f3f40",//DEPRECATE
       "muted-1": "#ffffff",
       "muted-2": "#ffffff",
       "muted-3": "#3f3f40",
