@@ -28,30 +28,30 @@ module.exports = {
   ],
   "colors": {
     "rebel-pink": "#F71963",   //DEPRECATE
-    "heavy-rebel-pink": "#DD1659",  //DEPRECATE
-    "elite-purple": "#8914CC",  //DEPRECATE
-    "near-black": "#3F3F40",  //DEPRECATE
-    "dark-gray": "#3f3f40",  //DEPRECATE
-    "mid-gray": "#727273",  //DEPRECATE
-    "gray": "#979899",  //DEPRECATE
-    "silver": "#CACBCC",  //DEPRECATE
-    "light-gray": "#E3E4E6",  //DEPRECATE
-    "light-silver": "#F2F4F5",  //DEPRECATE
-    "near-white": "#F7F9FA",  //DEPRECATE
-    "white": "#FFFFFF",  //DEPRECATE
-    "washed-blue": "#EDF4FA",  //DEPRECATE
-    "light-blue": "#cce8ff",  //DEPRECATE
-    "blue": "#368DF7",  //DEPRECATE
-    "heavy-blue": "#2A6DBF",  //DEPRECATE
+    "heavy-rebel-pink": "#DD1659", //DEPRECATE
+    "elite-purple": "#8914CC", //DEPRECATE
+    "near-black": "#3F3F40", //DEPRECATE
+    "dark-gray": "#3f3f40", //DEPRECATE
+    "mid-gray": "#727273", //DEPRECATE
+    "gray": "#979899", //DEPRECATE
+    "silver": "#CACBCC", //DEPRECATE
+    "light-gray": "#E3E4E6", //DEPRECATE
+    "light-silver": "#F2F4F5", //DEPRECATE
+    "near-white": "#F7F9FA", //DEPRECATE
+    "white": "#FFFFFF", //DEPRECATE
+    "washed-blue": "#EDF4FA", //DEPRECATE
+    "light-blue": "#cce8ff", //DEPRECATE
+    "blue": "#368DF7", //DEPRECATE
+    "heavy-blue": "#2A6DBF", //DEPRECATE
     "light-marine": "#3D5980",   //DEPRECATE
     "marine": "#25354D",   //DEPRECATE
-    "serious-black": "#142032",  //DEPRECATE
-    "green": "#8BC34A",  //DEPRECATE
-    "washed-green": "#EAFCE3",  //DEPRECATE
-    "red": "#FF4C4C",  //DEPRECATE
-    "washed-red": "#FFE6E6",  //DEPRECATE
-    "yellow": "#FFB100",  //DEPRECATE
-    "washed-yellow": "#FFF6E0",  //DEPRECATE
+    "serious-black": "#142032", //DEPRECATE
+    "green": "#8BC34A", //DEPRECATE
+    "washed-green": "#EAFCE3", //DEPRECATE
+    "red": "#FF4C4C", //DEPRECATE
+    "washed-red": "#FFE6E6", //DEPRECATE
+    "yellow": "#FFB100", //DEPRECATE
+    "washed-yellow": "#FFF6E0", //DEPRECATE
 
     "black-90": "rgba(0,0,0,.9)",
     "black-80": "rgba(0,0,0,.8)",
