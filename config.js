@@ -31,7 +31,7 @@ module.exports = {
     "heavy-rebel-pink": "#DD1659", //DEPRECATE
     "elite-purple": "#8914CC", //DEPRECATE
     "near-black": "#3F3F40", //DEPRECATE
-    "dark-gray": "#3f3f40", //DEPRECATE
+    "dark-gray": "#585959", //DEPRECATE
     "mid-gray": "#727273", //DEPRECATE
     "gray": "#979899", //DEPRECATE
     "silver": "#CACBCC", //DEPRECATE
