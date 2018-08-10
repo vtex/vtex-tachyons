@@ -133,7 +133,7 @@ module.exports = {
     },
     "text": {
       "link": "#134cd8",
-      "link--visited": "#0c389f"
+      "link--visited": "#0c389f",
       "emphasis": "#f71963",
       "disabled": "#979899",
       "success": "#8bc34a",
