@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [2.7.0] - 2018-08-13
+
 ### Added
 - Add `.visited-c-link`, `.hover-c-link`, `.active-c-link` and `.c-link`
 - Add `.active-` classes
