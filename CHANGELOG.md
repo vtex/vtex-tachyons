@@ -7,6 +7,18 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Added
+- Add `.visited-c-link`, `.hover-c-link`, `.active-c-link` and `.c-link`
+- Add `.active-` classes
+- Add missing `.c-action-primary` and `.c-action-secondary`
+
+### Fixed
+- Fix background colors
+- Fix hover background colors
+- Fix border colors
+- Fix hover border colors
+- Fix `.c-disabed` color
+
 ## [2.6.0] - 2018-08-10
 
 ### Added
