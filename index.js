@@ -1,6 +1,6 @@
 const fs = require('fs')
 const path = require('path')
-const tachyonsGenerator = require('tachyons-generator')
+const tachyonsGenerator = require('@vtex/tachyons-generator')
 const config = require('./config.js')
 
 // Write config file as JSON to keep API compatibility
