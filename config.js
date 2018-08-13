@@ -79,7 +79,7 @@ module.exports = {
     "white-025": "rgba(255,255,255,.025)",
     "white-0125": "rgba(255,255,255,.0125)"
   },
-  "colorTokens": {
+  "semanticColors": {
     "background": {
       "base": "#ffffff",
       "base--inverted": "#3f3f40",
@@ -132,8 +132,9 @@ module.exports = {
       "muted-5": "#f2f4f5"
     },
     "text": {
+      "action-primary": "#134cd8",
+      "action-secondary": "#eef3f7",
       "link": "#134cd8",
-      "link--visited": "#0c389f",
       "emphasis": "#f71963",
       "disabled": "#979899",
       "success": "#8bc34a",
@@ -148,10 +149,14 @@ module.exports = {
       "muted-4": "#e3e4e6",
       "muted-5": "#f2f4f5"
     },
+    "visited-text": {
+      "link": "#0c389f",
+    },
     "hover-text": {
+      "action-primary": "#0c389f",
+      "action-secondary": "#dbe9fd",
       "link": "#0c389f",
       "emphasis": "#dd1659",
-      "disabled": "#979899",
       "success": "#8bc34a",
       "success--faded": "#eafce3",
       "danger": "#ff4c4c",
@@ -162,7 +167,6 @@ module.exports = {
     "active-text": {
       "link": "#0c389f",
       "emphasis": "#dd1659",
-      "disabled": "#979899",
       "success": "#8bc34a",
       "success--faded": "#eafce3",
       "danger": "#ff4c4c",
@@ -193,7 +197,7 @@ module.exports = {
       "emphasis": "#dd1659",
       "success": "#8bc34a",
       "success--faded": "#eafce3",
-      "danger": "#ff4c4c",
+      "danger": "#e13232",
       "danger--faded": "#ffe6e6",
       "warning": "#ffb100",
       "warning--faded": "#fff6e0",
@@ -247,12 +251,7 @@ module.exports = {
       "danger": "#ffffff",
       "danger--faded": "#3f3f40",
       "warning": "#ffffff",
-      "warning--faded": "#1a1a1a",
-      "muted-1": "#ffffff",
-      "muted-2": "#ffffff",
-      "muted-3": "#3f3f40",
-      "muted-4": "#3f3f40",
-      "muted-5": "#3f3f40"
+      "warning--faded": "#1a1a1a"
     },
     "active-on": {
       "action-primary": "#ffffff",
@@ -263,12 +262,7 @@ module.exports = {
       "danger": "#ffffff",
       "danger--faded": "#3f3f40",
       "warning": "#ffffff",
-      "warning--faded": "#1a1a1a",
-      "muted-1": "#ffffff",
-      "muted-2": "#ffffff",
-      "muted-3": "#3f3f40",
-      "muted-4": "#3f3f40",
-      "muted-5": "#3f3f40"
+      "warning--faded": "#1a1a1a"
     },
   },
   "borderWidths": [0, 0.125, 0.25, 0.5, 1, 2],
