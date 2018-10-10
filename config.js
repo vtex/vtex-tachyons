@@ -271,7 +271,100 @@ module.exports = {
   "maxWidths": [1, 2, 4, 8, 16, 32, 48, 64, 96],
   "heights": [1, 2, 4, 8, 16],
   "typography":{
-    "measure": [30, 34, 20]
+    "measure": [30, 34, 20],
+    "styles": {
+      "heading-1": {
+        "fontFamily": "Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+        "fontWeight": "700",
+        "fontSize": "48px",
+        "textTransform": "initial",
+        "letterSpacing": "0"
+      },
+      "heading-2": {
+        "fontFamily": "Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+        "fontWeight": "700",
+        "fontSize": "36px",
+        "textTransform": "initial",
+        "letterSpacing": "0"
+      },
+      "heading-3": {
+        "fontFamily": "Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+        "fontWeight": "700",
+        "fontSize": "28px",
+        "textTransform": "initial",
+        "letterSpacing": "0"
+      },
+      "heading-4": {
+        "fontFamily": "Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+        "fontWeight": "normal",
+        "fontSize": "24px",
+        "textTransform": "initial",
+        "letterSpacing": "0"
+      },
+      "heading-5": {
+        "fontFamily": "Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+        "fontWeight": "normal",
+        "fontSize": "20px",
+        "textTransform": "initial",
+        "letterSpacing": "0"
+      },
+      "heading-6": {
+        "fontFamily": "Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+        "fontWeight": "normal",
+        "fontSize": "20px",
+        "textTransform": "initial",
+        "letterSpacing": "0"
+      },
+      "body": {
+        "fontFamily": "Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+        "fontWeight": "normal",
+        "fontSize": "16px",
+        "textTransform": "initial",
+        "letterSpacing": "0"
+      },
+      "small": {
+        "fontFamily": "Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+        "fontWeight": "normal",
+        "fontSize": "14px",
+        "textTransform": "initial",
+        "letterSpacing": "0"
+      },
+      "mini": {
+        "fontFamily": "Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+        "fontWeight": "normal",
+        "fontSize": "12px",
+        "textTransform": "initial",
+        "letterSpacing": "0"
+      },
+      "action": {
+        "fontFamily": "Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+        "fontWeight": "500",
+        "fontSize": "16px",
+        "textTransform": "uppercase",
+        "letterSpacing": "0"
+      },
+      "action--small": {
+        "fontFamily": "Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+        "fontWeight": "500",
+        "fontSize": "14px",
+        "textTransform": "uppercase",
+        "letterSpacing": "0"
+      },
+      "action--large": {
+        "fontFamily": "Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+        "fontWeight": "500",
+        "fontSize": "20px",
+        "textTransform": "uppercase",
+        "letterSpacing": "0"
+      },
+      "code": {
+        "fontFamily": "Consolas, monaco, monospace",
+        "fontWeight": "normal",
+        "fontSize": "16px",
+        "textTransform": "initial",
+        "letterSpacing": "0"
+      }
+    }
   },
   "opacity": [1, 0.9, 0.8, 0.7, 0.6, 0.5, 0.4, 0.3, 0.2, 0.1, 0.05, 0.025, 0]
 }
