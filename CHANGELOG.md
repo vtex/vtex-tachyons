@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [2.8.0] - 2018-10-15
+
 ### Added
 - Add typography styles tokens `.t-heading-1`, `.t-heading-2`, `.t-heading-3`, `.t-heading-4`, `.t-heading-5`, `.t-heading-6`, `.t-body`, `.t-small`, `.t-mini`, `.t-action`, `.t-action--small`, `.t-action--large` and `.t-code`. All of those classes have their responsive counterparts, i.e., `.t-body-s`, `.t-body-ns`, `.t-body-m`, `.t-body-l` and `.t-body-xl`.
 
