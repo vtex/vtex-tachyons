@@ -2,3 +2,5 @@ node_modules
 npm-debug.log
 .DS_STORE
 config.json
+package-lock.json
+*.log
