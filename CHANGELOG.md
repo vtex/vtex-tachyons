@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [2.8.4] - 2018-11-14
+
+## [2.8.3] - 2018-11-14
+
+### Fixed
+- Change hover-c-danger color to correct value
+
 ## [2.8.0] - 2018-10-15
 
 ### Added

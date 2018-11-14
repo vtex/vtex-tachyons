@@ -1172,8 +1172,8 @@
 .onda-v1 .hover-c-success:hover { color: #8bc34a; }
 .onda-v1 .hover-c-success--faded:focus { color: #eafce3; }
 .onda-v1 .hover-c-success--faded:hover { color: #eafce3; }
-.onda-v1 .hover-c-danger:focus { color: #ff4c4c; }
-.onda-v1 .hover-c-danger:hover { color: #ff4c4c; }
+.onda-v1 .hover-c-danger:focus { color: #e13232; }
+.onda-v1 .hover-c-danger:hover { color: #e13232; }
 .onda-v1 .hover-c-danger--faded:focus { color: #ffe6e6; }
 .onda-v1 .hover-c-danger--faded:hover { color: #ffe6e6; }
 .onda-v1 .hover-c-warning:focus { color: #ffb100; }
