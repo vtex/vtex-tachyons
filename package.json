@@ -1,6 +1,6 @@
 {
   "name": "vtex-tachyons",
-  "version": "2.8.1",
+  "version": "2.8.2",
   "description": "A custom Tachyons for VTEX",
   "main": "tachyons.css",
   "scripts": {
