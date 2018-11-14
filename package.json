@@ -4,8 +4,7 @@
   "description": "A custom Tachyons for VTEX",
   "main": "tachyons.css",
   "scripts": {
-    "prepublishOnly": "node index.js",
-    "postreleasy": "npm publish"
+    "prepublishOnly": "node index.js"
   },
   "repository": {
     "type": "git",
