@@ -270,6 +270,11 @@ module.exports = {
   "widths": [1, 2, 4, 8, 16],
   "maxWidths": [1, 2, 4, 8, 16, 32, 48, 64, 96],
   "heights": [1, 2, 4, 8, 16],
+  "sizes": [
+    {name: "small", value: 2},
+    {name: "regular", value: 2.5},
+    {name: "large", value: 3},
+  ],
   "typography":{
     "measure": [30, 34, 20],
     "styles": {
