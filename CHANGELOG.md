@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Added
+
+- Size classes (`h-small`, `h-regular`, `h-large`)
+
 ## [2.9.0] - 2018-11-19
 
 ### Added
