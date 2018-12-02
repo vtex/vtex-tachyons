@@ -769,6 +769,31 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .min-vh-100 { min-height: 100vh; }
 .h-auto { height: auto; }
 .h-inherit { height: inherit; }
+/*
+  SIZES
+
+  Base:
+    h = height
+    min-h = min-height
+
+  Modifiers
+    -small = 2rem
+    -regular = 2.5rem
+    -large = 3rem
+
+  Media Query Extensions:
+    -s  = 20em
+    -ns  = 40em
+    -m  = 40em
+    -l  = 64em
+    -xl  = 80em
+*/
+.h-small { height: 2rem; box-sizing: border-box; }
+.min-h-small { min-height: 2rem; box-sizing: border-box; }
+.h-regular { height: 2.5rem; box-sizing: border-box; }
+.min-h-regular { min-height: 2.5rem; box-sizing: border-box; }
+.h-large { height: 3rem; box-sizing: border-box; }
+.min-h-large { min-height: 3rem; box-sizing: border-box; }
 .rebel-pink { color: #f71963; }
 .heavy-rebel-pink { color: #dd1659; }
 .elite-purple { color: #8914cc; }
@@ -2066,6 +2091,12 @@ body, .t-body { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir 
  .min-vh-100-s { min-height: 100vh; }
  .h-auto-s { height: auto; }
  .h-inherit-s { height: inherit; }
+ .h-small-s { height: 2rem; box-sizing: border-box; }
+ .min-h-small-s { min-height: 2rem; box-sizing: border-box; }
+ .h-regular-s { height: 2.5rem; box-sizing: border-box; }
+ .min-h-regular-s { min-height: 2.5rem; box-sizing: border-box; }
+ .h-large-s { height: 3rem; box-sizing: border-box; }
+ .min-h-large-s { min-height: 3rem; box-sizing: border-box; }
  .tracked-s { letter-spacing: .1em; }
  .tracked-tight-s { letter-spacing: -.05em; }
  .tracked-mega-s { letter-spacing: .25em; }
@@ -3046,6 +3077,18 @@ body, .t-body { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir 
  .min-vh-100-m { min-height: 100vh; }
  .h-auto-m { height: auto; }
  .h-inherit-m { height: inherit; }
+ .h-small-ns { height: 2rem; box-sizing: border-box; }
+ .min-h-small-ns { min-height: 2rem; box-sizing: border-box; }
+ .h-regular-ns { height: 2.5rem; box-sizing: border-box; }
+ .min-h-regular-ns { min-height: 2.5rem; box-sizing: border-box; }
+ .h-large-ns { height: 3rem; box-sizing: border-box; }
+ .min-h-large-ns { min-height: 3rem; box-sizing: border-box; }
+ .h-small-m { height: 2rem; box-sizing: border-box; }
+ .min-h-small-m { min-height: 2rem; box-sizing: border-box; }
+ .h-regular-m { height: 2.5rem; box-sizing: border-box; }
+ .min-h-regular-m { min-height: 2.5rem; box-sizing: border-box; }
+ .h-large-m { height: 3rem; box-sizing: border-box; }
+ .min-h-large-m { min-height: 3rem; box-sizing: border-box; }
  .tracked-ns { letter-spacing: .1em; }
  .tracked-tight-ns { letter-spacing: -.05em; }
  .tracked-mega-ns { letter-spacing: .25em; }
@@ -3756,6 +3799,12 @@ body, .t-body { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir 
  .min-vh-100-l { min-height: 100vh; }
  .h-auto-l { height: auto; }
  .h-inherit-l { height: inherit; }
+ .h-small-l { height: 2rem; box-sizing: border-box; }
+ .min-h-small-l { min-height: 2rem; box-sizing: border-box; }
+ .h-regular-l { height: 2.5rem; box-sizing: border-box; }
+ .min-h-regular-l { min-height: 2.5rem; box-sizing: border-box; }
+ .h-large-l { height: 3rem; box-sizing: border-box; }
+ .min-h-large-l { min-height: 3rem; box-sizing: border-box; }
  .tracked-l { letter-spacing: .1em; }
  .tracked-tight-l { letter-spacing: -.05em; }
  .tracked-mega-l { letter-spacing: .25em; }
@@ -4320,6 +4369,12 @@ body, .t-body { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir 
  .min-vh-100-xl { min-height: 100vh; }
  .h-auto-xl { height: auto; }
  .h-inherit-xl { height: inherit; }
+ .h-small-xl { height: 2rem; box-sizing: border-box; }
+ .min-h-small-xl { min-height: 2rem; box-sizing: border-box; }
+ .h-regular-xl { height: 2.5rem; box-sizing: border-box; }
+ .min-h-regular-xl { min-height: 2.5rem; box-sizing: border-box; }
+ .h-large-xl { height: 3rem; box-sizing: border-box; }
+ .min-h-large-xl { min-height: 3rem; box-sizing: border-box; }
  .tracked-xl { letter-spacing: .1em; }
  .tracked-tight-xl { letter-spacing: -.05em; }
  .tracked-mega-xl { letter-spacing: .25em; }

@@ -1,10 +1,11 @@
 {
   "name": "vtex-tachyons",
-  "version": "2.9.0",
+  "version": "2.10.0",
   "description": "A custom Tachyons for VTEX",
   "main": "tachyons.css",
   "scripts": {
-    "prepublishOnly": "node index.js"
+    "build": "node index.js",
+    "prepublishOnly": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,6 @@
   },
   "homepage": "https://github.com/vtex/vtex-tachyons#readme",
   "devDependencies": {
-    "@vtex/tachyons-generator": "^0.26.0"
+    "@vtex/tachyons-generator": "^0.27.0"
   }
 }
