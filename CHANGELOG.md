@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [2.10.0] - 2018-12-02
+
 ### Added
 
 - Adds new size design tokens (`h-small`, `h-regular`, `h-large`)
