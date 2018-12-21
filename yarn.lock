@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@vtex/tachyons-generator@^0.27.0":
-  version "0.27.0"
-  resolved "https://registry.yarnpkg.com/@vtex/tachyons-generator/-/tachyons-generator-0.27.0.tgz#9c9bd8c574744829237f1f527fd4ea141c6a3bf0"
-  integrity sha512-lxG579Y+cHUq1CS62Gnn3o5EMcskaFMB9BkFoIl6JoJYa8d+y8rx2hNR3axMvHb/cZZztwqx6sY6S8OZGhpx9Q==
+"@vtex/tachyons-generator@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@vtex/tachyons-generator/-/tachyons-generator-1.0.0.tgz#e23eb1977b761bd0db2d109d4edc1f495a781983"
+  integrity sha512-u2R4/Pt28tA8DQk4W6XnqFD/Lfo3XfDTC9pz4exoHauOnfLcpYBwjjjngOIaF5uIWA7pctz7Ev6jDW0k4Lz6xQ==
   dependencies:
     autoprefixer "^8.6.3"
     camelcase "^4.1.0"

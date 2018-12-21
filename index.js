@@ -26,7 +26,7 @@ const generate = async () => {
 generate()
 
 const generateScoped = async () => {
-  const namespace = 'onda-v1'
+  const namespace = 'onda-v3'
   const scopedConfig = Object.assign({}, { namespace }, config)
   const tachy = tachyonsGenerator(scopedConfig)
 
