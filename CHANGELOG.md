@@ -9,6 +9,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [3.0.0] - 2018-12-21
 
+### Removed
+
+- Remove Fabriga as default font family.
+
 ## [2.10.0] - 2018-12-02
 
 ### Added
