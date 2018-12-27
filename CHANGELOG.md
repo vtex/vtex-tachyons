@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Fixed
+
+- Fix bg-disabled color
+
 ## [3.0.0] - 2018-12-21
 
 ### Removed
