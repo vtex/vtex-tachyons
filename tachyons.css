@@ -138,7 +138,7 @@ template { display: none; }
 .bg-action-primary { background-color: #134cd8; }
 .bg-action-secondary { background-color: #eef3f7; }
 .bg-emphasis { background-color: #f71963; }
-.bg-disabled { background-color: #e3e4e6; }
+.bg-disabled { background-color: #f2f4f5; }
 .bg-success { background-color: #8bc34a; }
 .bg-success--faded { background-color: #eafce3; }
 .bg-danger { background-color: #ff4c4c; }

@@ -86,7 +86,7 @@ module.exports = {
       "action-primary": "#134cd8",
       "action-secondary": "#eef3f7",
       "emphasis": "#f71963",
-      "disabled": "#e3e4e6",
+      "disabled": "#f2f4f5",
       "success": "#8bc34a",
       "success--faded": "#eafce3",
       "danger": "#ff4c4c",
