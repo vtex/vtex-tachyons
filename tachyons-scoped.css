@@ -1488,6 +1488,7 @@
 .onda-v3 .relative { position: relative; }
 .onda-v3 .absolute { position: absolute; }
 .onda-v3 .fixed { position: fixed; }
+.onda-v3 .sticky { position: -webkit-sticky; position: sticky; }
 .onda-v3 .strike { text-decoration: line-through; }
 .onda-v3 .underline { text-decoration: underline; }
 .onda-v3 .no-underline { text-decoration: none; }
