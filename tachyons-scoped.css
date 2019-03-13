@@ -1488,6 +1488,7 @@
 .onda-v3 .relative { position: relative; }
 .onda-v3 .absolute { position: absolute; }
 .onda-v3 .fixed { position: fixed; }
+.onda-v3 .sticky { position: -webkit-sticky; position: sticky; }
 .onda-v3 .strike { text-decoration: line-through; }
 .onda-v3 .underline { text-decoration: underline; }
 .onda-v3 .no-underline { text-decoration: none; }
@@ -2162,6 +2163,7 @@
  .onda-v3 .relative-s { position: relative; }
  .onda-v3 .absolute-s { position: absolute; }
  .onda-v3 .fixed-s { position: fixed; }
+ .onda-v3 .sticky-s { position: -webkit-sticky; position: sticky; }
  .onda-v3 .strike-s { text-decoration: line-through; }
  .onda-v3 .underline-s { text-decoration: underline; }
  .onda-v3 .no-underline-s { text-decoration: none; }
@@ -3206,10 +3208,12 @@
  .onda-v3 .relative-ns { position: relative; }
  .onda-v3 .absolute-ns { position: absolute; }
  .onda-v3 .fixed-ns { position: fixed; }
+ .onda-v3 .sticky-ns { position: -webkit-sticky; position: sticky; }
  .onda-v3 .static-m { position: static; }
  .onda-v3 .relative-m { position: relative; }
  .onda-v3 .absolute-m { position: absolute; }
  .onda-v3 .fixed-m { position: fixed; }
+ .onda-v3 .sticky-m { position: -webkit-sticky; position: sticky; }
  .onda-v3 .strike-ns { text-decoration: line-through; }
  .onda-v3 .underline-ns { text-decoration: underline; }
  .onda-v3 .no-underline-ns { text-decoration: none; }
@@ -3870,6 +3874,7 @@
  .onda-v3 .relative-l { position: relative; }
  .onda-v3 .absolute-l { position: absolute; }
  .onda-v3 .fixed-l { position: fixed; }
+ .onda-v3 .sticky-l { position: -webkit-sticky; position: sticky; }
  .onda-v3 .strike-l { text-decoration: line-through; }
  .onda-v3 .underline-l { text-decoration: underline; }
  .onda-v3 .no-underline-l { text-decoration: none; }
@@ -4440,6 +4445,7 @@
  .onda-v3 .relative-xl { position: relative; }
  .onda-v3 .absolute-xl { position: absolute; }
  .onda-v3 .fixed-xl { position: fixed; }
+ .onda-v3 .sticky-xl { position: -webkit-sticky; position: sticky; }
  .onda-v3 .strike-xl { text-decoration: line-through; }
  .onda-v3 .underline-xl { text-decoration: underline; }
  .onda-v3 .no-underline-xl { text-decoration: none; }
