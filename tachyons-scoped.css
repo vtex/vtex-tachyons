@@ -709,14 +709,8 @@
 .onda-v3 .fl { float: left; _display: inline; }
 .onda-v3 .fr { float: right; _display: inline; }
 .onda-v3 .fn { float: none; }
-@font-face { font-family: 'Fabriga'; src: url( '//io.vtex.com.br/fonts/fabriga/Fabriga-Light.eot' ); src: url( '//io.vtex.com.br/fonts/fabriga/Fabriga-Light.eot?#iefix' ) format( 'embedded-opentype' ), url( '//io.vtex.com.br/fonts/fabriga/Fabriga-Light.woff2' ) format( 'woff2' ), url( '//io.vtex.com.br/fonts/fabriga/Fabriga-Light.woff' ) format( 'woff' ); font-weight: 300; font-style: normal; }
-@font-face { font-family: 'Fabriga'; src: url( '//io.vtex.com.br/fonts/fabriga/Fabriga-Regular.eot' ); src: url( '//io.vtex.com.br/fonts/fabriga/Fabriga-Regular?#iefix' ) format( 'embedded-opentype' ), url( '//io.vtex.com.br/fonts/fabriga/Fabriga-Regular.woff2' ) format( 'woff2' ), url( '//io.vtex.com.br/fonts/fabriga/Fabriga-Regular.woff' ) format( 'woff' ); font-weight: normal; font-style: normal; }
-@font-face { font-family: 'Fabriga'; src: url( '//io.vtex.com.br/fonts/fabriga/Fabriga-Italic.eot' ); src: url( '//io.vtex.com.br/fonts/fabriga/Fabriga-Italic?#iefix' ) format( 'embedded-opentype' ), url( '//io.vtex.com.br/fonts/fabriga/Fabriga-Italic.woff2' ) format( 'woff2' ), url( '//io.vtex.com.br/fonts/fabriga/Fabriga-Italic.woff' ) format( 'woff' ); font-weight: normal; font-style: italic; }
-@font-face { font-family: 'Fabriga'; src: url( '//io.vtex.com.br/fonts/fabriga/Fabriga-Medium.eot' ); src: url( '//io.vtex.com.br/fonts/fabriga/Fabriga-Medium?#iefix' ) format( 'embedded-opentype' ), url( '//io.vtex.com.br/fonts/fabriga/Fabriga-Medium.woff2' ) format( 'woff2' ), url( '//io.vtex.com.br/fonts/fabriga/Fabriga-Medium.woff' ) format( 'woff' ); font-weight: 500; font-style: normal; }
-@font-face { font-family: 'Fabriga'; src: url( '//io.vtex.com.br/fonts/fabriga/Fabriga-Bold.eot' ); src: url( '//io.vtex.com.br/fonts/fabriga/Fabriga-Bold?#iefix' ) format( 'embedded-opentype' ), url( '//io.vtex.com.br/fonts/fabriga/Fabriga-Bold.woff2' ) format( 'woff2' ), url( '//io.vtex.com.br/fonts/fabriga/Fabriga-Bold.woff' ) format( 'woff' ); font-weight: bold; font-style: normal; }
-@font-face { font-family: 'Fabriga'; src: url( '//io.vtex.com.br/fonts/fabriga/Fabriga-Black.eot' ); src: url( '//io.vtex.com.br/fonts/fabriga/Fabriga-Black?#iefix' ) format( 'embedded-opentype' ), url( '//io.vtex.com.br/fonts/fabriga/Fabriga-Black.woff2' ) format( 'woff2' ), url( '//io.vtex.com.br/fonts/fabriga/Fabriga-Black.woff' ) format( 'woff' ); font-weight: 900; font-style: normal; }
 .onda-v3 body, .onda-v3 button, .onda-v3 input, .onda-v3 optgroup,
-.onda-v3 select, .onda-v3 textarea, .onda-v3 .fabriga { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-family: 'Fabriga', -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif; }
+.onda-v3 select, .onda-v3 textarea { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif; }
 .onda-v3 .sans-serif { font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif; }
 .onda-v3 code, .onda-v3 .code { font-family: Consolas, monaco, monospace; }
 .onda-v3 .i { font-style: italic; }
@@ -1495,6 +1489,7 @@
 .onda-v3 .relative { position: relative; }
 .onda-v3 .absolute { position: absolute; }
 .onda-v3 .fixed { position: fixed; }
+.onda-v3 .sticky { position: -webkit-sticky; position: sticky; }
 .onda-v3 .strike { text-decoration: line-through; }
 .onda-v3 .underline { text-decoration: underline; }
 .onda-v3 .no-underline { text-decoration: none; }
@@ -2169,6 +2164,7 @@
  .onda-v3 .relative-s { position: relative; }
  .onda-v3 .absolute-s { position: absolute; }
  .onda-v3 .fixed-s { position: fixed; }
+ .onda-v3 .sticky-s { position: -webkit-sticky; position: sticky; }
  .onda-v3 .strike-s { text-decoration: line-through; }
  .onda-v3 .underline-s { text-decoration: underline; }
  .onda-v3 .no-underline-s { text-decoration: none; }
@@ -3213,10 +3209,12 @@
  .onda-v3 .relative-ns { position: relative; }
  .onda-v3 .absolute-ns { position: absolute; }
  .onda-v3 .fixed-ns { position: fixed; }
+ .onda-v3 .sticky-ns { position: -webkit-sticky; position: sticky; }
  .onda-v3 .static-m { position: static; }
  .onda-v3 .relative-m { position: relative; }
  .onda-v3 .absolute-m { position: absolute; }
  .onda-v3 .fixed-m { position: fixed; }
+ .onda-v3 .sticky-m { position: -webkit-sticky; position: sticky; }
  .onda-v3 .strike-ns { text-decoration: line-through; }
  .onda-v3 .underline-ns { text-decoration: underline; }
  .onda-v3 .no-underline-ns { text-decoration: none; }
@@ -3877,6 +3875,7 @@
  .onda-v3 .relative-l { position: relative; }
  .onda-v3 .absolute-l { position: absolute; }
  .onda-v3 .fixed-l { position: fixed; }
+ .onda-v3 .sticky-l { position: -webkit-sticky; position: sticky; }
  .onda-v3 .strike-l { text-decoration: line-through; }
  .onda-v3 .underline-l { text-decoration: underline; }
  .onda-v3 .no-underline-l { text-decoration: none; }
@@ -4447,6 +4446,7 @@
  .onda-v3 .relative-xl { position: relative; }
  .onda-v3 .absolute-xl { position: absolute; }
  .onda-v3 .fixed-xl { position: fixed; }
+ .onda-v3 .sticky-xl { position: -webkit-sticky; position: sticky; }
  .onda-v3 .strike-xl { text-decoration: line-through; }
  .onda-v3 .underline-xl { text-decoration: underline; }
  .onda-v3 .no-underline-xl { text-decoration: none; }
