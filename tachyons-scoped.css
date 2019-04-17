@@ -139,6 +139,7 @@
 .onda-v3 .bg-transparent { background-color: transparent; }
 .onda-v3 .bg-base { background-color: #fff; }
 .onda-v3 .bg-base--inverted { background-color: #3f3f40; }
+.onda-v3 .bg-overlay { background-color: rgba( 0, 0, 0, .5 ); }
 .onda-v3 .bg-action-primary { background-color: #134cd8; }
 .onda-v3 .bg-action-secondary { background-color: #eef3f7; }
 .onda-v3 .bg-emphasis { background-color: #f71963; }

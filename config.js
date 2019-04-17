@@ -83,6 +83,7 @@ module.exports = {
     "background": {
       "base": "#ffffff",
       "base--inverted": "#3f3f40",
+      "overlay": "rgba(0, 0, 0, 0.5)",
       "action-primary": "#134cd8",
       "action-secondary": "#eef3f7",
       "emphasis": "#f71963",
