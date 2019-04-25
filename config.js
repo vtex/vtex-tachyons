@@ -5,22 +5,26 @@ module.exports = {
   "spacing": [0.125, 0.25, 0.5, 0.75, 1, 1.5, 2, 3, 4, 8, 16],
   "customMedia": [
     { "s": 20 },
-    { "ns": {
+    {
+      "ns": {
         "value": 40,
         "minWidth": true
       }
     },
-    { "m": {
+    {
+      "m": {
         "value": 40,
         "minWidth": true
       }
     },
-    { "l": {
-      "value": 64,
-      "minWidth": true
-    }
+    {
+      "l": {
+        "value": 64,
+        "minWidth": true
+      }
     },
-    { "xl": {
+    {
+      "xl": {
         "value": 80,
         "minWidth": true
       }
@@ -175,7 +179,7 @@ module.exports = {
       "warning--faded": "#fff6e0"
     },
     "border": {
-      "action-primary": "#1346d8",
+      "action-primary": "#134cd8",
       "action-secondary": "#eef3f7",
       "emphasis": "#f71963",
       "disabled": "#e3e4e6",
@@ -271,11 +275,11 @@ module.exports = {
   "maxWidths": [1, 2, 4, 8, 16, 32, 48, 64, 96],
   "heights": [1, 2, 4, 8, 16],
   "sizes": [
-    {name: "small", value: 2},
-    {name: "regular", value: 2.5},
-    {name: "large", value: 3},
+    { name: "small", value: 2 },
+    { name: "regular", value: 2.5 },
+    { name: "large", value: 3 },
   ],
-  "typography":{
+  "typography": {
     "measure": [30, 34, 20],
     "styles": {
       "heading-1": {
