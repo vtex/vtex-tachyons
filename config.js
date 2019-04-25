@@ -175,7 +175,7 @@ module.exports = {
       "warning--faded": "#fff6e0"
     },
     "border": {
-      "action-primary": "#1346d8",
+      "action-primary": "#134cd8",
       "action-secondary": "#eef3f7",
       "emphasis": "#f71963",
       "disabled": "#e3e4e6",
