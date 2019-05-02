@@ -699,11 +699,28 @@ input[type="tel"], input[type="text"], input[type="url"], .border-box { box-sizi
 .fl { float: left; _display: inline; }
 .fr { float: right; _display: inline; }
 .fn { float: none; }
-body, button, input, optgroup, select, textarea { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif; }
+@font-face { font-family: 'Fabriga'; src: url( '//io.vtex.com.br/fonts/fabriga/Fabriga-Light.eot' ); src: url( '//io.vtex.com.br/fonts/fabriga/Fabriga-Light.eot?#iefix' ) format( 'embedded-opentype' ), url( '//io.vtex.com.br/fonts/fabriga/Fabriga-Light.woff2' ) format( 'woff2' ), url( '//io.vtex.com.br/fonts/fabriga/Fabriga-Light.woff' ) format( 'woff' ); font-weight: 300; font-style: normal; }
+@font-face { font-family: 'Fabriga'; src: url( '//io.vtex.com.br/fonts/fabriga/Fabriga-Regular.eot' ); src: url( '//io.vtex.com.br/fonts/fabriga/Fabriga-Regular?#iefix' ) format( 'embedded-opentype' ), url( '//io.vtex.com.br/fonts/fabriga/Fabriga-Regular.woff2' ) format( 'woff2' ), url( '//io.vtex.com.br/fonts/fabriga/Fabriga-Regular.woff' ) format( 'woff' ); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'Fabriga'; src: url( '//io.vtex.com.br/fonts/fabriga/Fabriga-Italic.eot' ); src: url( '//io.vtex.com.br/fonts/fabriga/Fabriga-Italic?#iefix' ) format( 'embedded-opentype' ), url( '//io.vtex.com.br/fonts/fabriga/Fabriga-Italic.woff2' ) format( 'woff2' ), url( '//io.vtex.com.br/fonts/fabriga/Fabriga-Italic.woff' ) format( 'woff' ); font-weight: normal; font-style: italic; }
+@font-face { font-family: 'Fabriga'; src: url( '//io.vtex.com.br/fonts/fabriga/Fabriga-Medium.eot' ); src: url( '//io.vtex.com.br/fonts/fabriga/Fabriga-Medium?#iefix' ) format( 'embedded-opentype' ), url( '//io.vtex.com.br/fonts/fabriga/Fabriga-Medium.woff2' ) format( 'woff2' ), url( '//io.vtex.com.br/fonts/fabriga/Fabriga-Medium.woff' ) format( 'woff' ); font-weight: 500; font-style: normal; }
+@font-face { font-family: 'Fabriga'; src: url( '//io.vtex.com.br/fonts/fabriga/Fabriga-Bold.eot' ); src: url( '//io.vtex.com.br/fonts/fabriga/Fabriga-Bold?#iefix' ) format( 'embedded-opentype' ), url( '//io.vtex.com.br/fonts/fabriga/Fabriga-Bold.woff2' ) format( 'woff2' ), url( '//io.vtex.com.br/fonts/fabriga/Fabriga-Bold.woff' ) format( 'woff' ); font-weight: bold; font-style: normal; }
+@font-face { font-family: 'Fabriga'; src: url( '//io.vtex.com.br/fonts/fabriga/Fabriga-Black.eot' ); src: url( '//io.vtex.com.br/fonts/fabriga/Fabriga-Black?#iefix' ) format( 'embedded-opentype' ), url( '//io.vtex.com.br/fonts/fabriga/Fabriga-Black.woff2' ) format( 'woff2' ), url( '//io.vtex.com.br/fonts/fabriga/Fabriga-Black.woff' ) format( 'woff' ); font-weight: 900; font-style: normal; }
+body, button, input, optgroup, select, textarea, .fabriga { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-family: 'Fabriga', -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif; }
 .sans-serif { font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif; }
 code, .code { font-family: Consolas, monaco, monospace; }
 .i { font-style: italic; }
 .fs-normal { font-style: normal; }
+.normal { font-weight: normal; }
+.b { font-weight: bold; }
+.fw1 { font-weight: 100; }
+.fw2 { font-weight: 200; }
+.fw3 { font-weight: 300; }
+.fw4 { font-weight: 400; }
+.fw5 { font-weight: 500; }
+.fw6 { font-weight: 600; }
+.fw7 { font-weight: 700; }
+.fw8 { font-weight: 800; }
+.fw9 { font-weight: 900; }
 .input-reset { -webkit-appearance: none; -moz-appearance: none; }
 .button-reset::-moz-focus-inner, .input-reset::-moz-focus-inner { border: 0; padding: 0; }
 .link { text-decoration: none; transition: color .15s ease-in; }
@@ -763,31 +780,6 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .min-vh-100 { min-height: 100vh; }
 .h-auto { height: auto; }
 .h-inherit { height: inherit; }
-/*
-  SIZES
-
-  Base:
-    h = height
-    min-h = min-height
-
-  Modifiers
-    -small = 2rem
-    -regular = 2.5rem
-    -large = 3rem
-
-  Media Query Extensions:
-    -s  = 20em
-    -ns  = 40em
-    -m  = 40em
-    -l  = 64em
-    -xl  = 80em
-*/
-.h-small { height: 2rem; box-sizing: border-box; }
-.min-h-small { min-height: 2rem; box-sizing: border-box; }
-.h-regular { height: 2.5rem; box-sizing: border-box; }
-.min-h-regular { min-height: 2.5rem; box-sizing: border-box; }
-.h-large { height: 3rem; box-sizing: border-box; }
-.min-h-large { min-height: 3rem; box-sizing: border-box; }
 .rebel-pink { color: #f71963; }
 .heavy-rebel-pink { color: #dd1659; }
 .elite-purple { color: #8914cc; }
@@ -1473,7 +1465,6 @@ img { max-width: 100%; }
 .relative { position: relative; }
 .absolute { position: absolute; }
 .fixed { position: fixed; }
-.sticky { position: -webkit-sticky; position: sticky; }
 .strike { text-decoration: line-through; }
 .underline { text-decoration: underline; }
 .no-underline { text-decoration: none; }
@@ -1543,30 +1534,6 @@ img { max-width: 100%; }
 .small-caps { font-variant: small-caps; }
 .indent { text-indent: 1em; margin-top: 0; margin-bottom: 0; }
 .truncate { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-.t-heading-1 { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif; font-weight: 700; font-size: 3rem; text-transform: initial; letter-spacing: 0; }
-.t-heading-2 { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif; font-weight: 700; font-size: 2.25rem; text-transform: initial; letter-spacing: 0; }
-.t-heading-3 { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif; font-weight: 700; font-size: 1.75rem; text-transform: initial; letter-spacing: 0; }
-.t-heading-4 { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif; font-weight: normal; font-size: 1.5rem; text-transform: initial; letter-spacing: 0; }
-.t-heading-5 { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif; font-weight: normal; font-size: 1.25rem; text-transform: initial; letter-spacing: 0; }
-.t-heading-6 { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif; font-weight: normal; font-size: 1.25rem; text-transform: initial; letter-spacing: 0; }
-body, .t-body { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif; font-weight: normal; font-size: 1rem; text-transform: initial; letter-spacing: 0; }
-.t-small { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif; font-weight: normal; font-size: .875rem; text-transform: initial; letter-spacing: 0; }
-.t-mini { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif; font-weight: normal; font-size: .75rem; text-transform: initial; letter-spacing: 0; }
-.t-action { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif; font-weight: 500; font-size: 1rem; text-transform: uppercase; letter-spacing: 0; }
-.t-action--small { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif; font-weight: 500; font-size: .875rem; text-transform: uppercase; letter-spacing: 0; }
-.t-action--large { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif; font-weight: 500; font-size: 1.25rem; text-transform: uppercase; letter-spacing: 0; }
-.t-code { font-family: Consolas, monaco, monospace; font-weight: normal; font-size: 1rem; text-transform: initial; letter-spacing: 0; }
-.normal { font-weight: normal; }
-.b { font-weight: bold; }
-.fw1 { font-weight: 100; }
-.fw2 { font-weight: 200; }
-.fw3 { font-weight: 300; }
-.fw4 { font-weight: 400; }
-.fw5 { font-weight: 500; }
-.fw6 { font-weight: 600; }
-.fw7 { font-weight: 700; }
-.fw8 { font-weight: 800; }
-.fw9 { font-weight: 900; }
 .overflow-container { overflow-y: scroll; }
 .center { margin-right: auto; margin-left: auto; }
 .mr-auto { margin-right: auto; }
@@ -1582,7 +1549,6 @@ body, .t-body { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir 
 
   Base:
     w = width
-    vw = viewport width
 
   Modifiers
     1 = 1st step in width scale
@@ -1640,22 +1606,6 @@ body, .t-body { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir 
 .w-100 { width: 100%; }
 .w-third { width: calc( 100% / 3 ); }
 .w-two-thirds { width: calc( 100% / 1.5 ); }
-.vw-10 { width: 10vw; }
-.vw-20 { width: 20vw; }
-.vw-25 { width: 25vw; }
-.vw-30 { width: 30vw; }
-.vw-33 { width: 33vw; }
-.vw-34 { width: 34vw; }
-.vw-40 { width: 40vw; }
-.vw-50 { width: 50vw; }
-.vw-60 { width: 60vw; }
-.vw-70 { width: 70vw; }
-.vw-75 { width: 75vw; }
-.vw-80 { width: 80vw; }
-.vw-90 { width: 90vw; }
-.vw-100 { width: 100vw; }
-.vw-third { width: calc( 100vw / 3 ); }
-.vw-two-thirds { width: calc( 100vw / 1.5 ); }
 .w-auto { width: auto; }
 .z-0 { z-index: 0; }
 .z-1 { z-index: 1; }
@@ -2069,6 +2019,17 @@ body, .t-body { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir 
  .fn-s { float: none; }
  .i-s { font-style: italic; }
  .fs-normal-s { font-style: normal; }
+ .normal-s { font-weight: normal; }
+ .b-s { font-weight: bold; }
+ .fw1-s { font-weight: 100; }
+ .fw2-s { font-weight: 200; }
+ .fw3-s { font-weight: 300; }
+ .fw4-s { font-weight: 400; }
+ .fw5-s { font-weight: 500; }
+ .fw6-s { font-weight: 600; }
+ .fw7-s { font-weight: 700; }
+ .fw8-s { font-weight: 800; }
+ .fw9-s { font-weight: 900; }
  .h1-s { height: 1rem; }
  .h2-s { height: 2rem; }
  .h3-s { height: 4rem; }
@@ -2086,12 +2047,6 @@ body, .t-body { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir 
  .min-vh-100-s { min-height: 100vh; }
  .h-auto-s { height: auto; }
  .h-inherit-s { height: inherit; }
- .h-small-s { height: 2rem; box-sizing: border-box; }
- .min-h-small-s { min-height: 2rem; box-sizing: border-box; }
- .h-regular-s { height: 2.5rem; box-sizing: border-box; }
- .min-h-regular-s { min-height: 2.5rem; box-sizing: border-box; }
- .h-large-s { height: 3rem; box-sizing: border-box; }
- .min-h-large-s { min-height: 3rem; box-sizing: border-box; }
  .tracked-s { letter-spacing: .1em; }
  .tracked-tight-s { letter-spacing: -.05em; }
  .tracked-mega-s { letter-spacing: .25em; }
@@ -2148,7 +2103,6 @@ body, .t-body { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir 
  .relative-s { position: relative; }
  .absolute-s { position: absolute; }
  .fixed-s { position: fixed; }
- .sticky-s { position: -webkit-sticky; position: sticky; }
  .strike-s { text-decoration: line-through; }
  .underline-s { text-decoration: underline; }
  .no-underline-s { text-decoration: none; }
@@ -2173,30 +2127,6 @@ body, .t-body { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir 
  .small-caps-s { font-variant: small-caps; }
  .indent-s { text-indent: 1em; margin-top: 0; margin-bottom: 0; }
  .truncate-s { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
- .t-heading-1-s { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif; font-weight: 700; font-size: 3rem; text-transform: initial; letter-spacing: 0; }
- .t-heading-2-s { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif; font-weight: 700; font-size: 2.25rem; text-transform: initial; letter-spacing: 0; }
- .t-heading-3-s { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif; font-weight: 700; font-size: 1.75rem; text-transform: initial; letter-spacing: 0; }
- .t-heading-4-s { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif; font-weight: normal; font-size: 1.5rem; text-transform: initial; letter-spacing: 0; }
- .t-heading-5-s { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif; font-weight: normal; font-size: 1.25rem; text-transform: initial; letter-spacing: 0; }
- .t-heading-6-s { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif; font-weight: normal; font-size: 1.25rem; text-transform: initial; letter-spacing: 0; }
- body, .t-body-s { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif; font-weight: normal; font-size: 1rem; text-transform: initial; letter-spacing: 0; }
- .t-small-s { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif; font-weight: normal; font-size: .875rem; text-transform: initial; letter-spacing: 0; }
- .t-mini-s { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif; font-weight: normal; font-size: .75rem; text-transform: initial; letter-spacing: 0; }
- .t-action-s { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif; font-weight: 500; font-size: 1rem; text-transform: uppercase; letter-spacing: 0; }
- .t-action--small-s { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif; font-weight: 500; font-size: .875rem; text-transform: uppercase; letter-spacing: 0; }
- .t-action--large-s { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif; font-weight: 500; font-size: 1.25rem; text-transform: uppercase; letter-spacing: 0; }
- .t-code-s { font-family: Consolas, monaco, monospace; font-weight: normal; font-size: 1rem; text-transform: initial; letter-spacing: 0; }
- .normal-s { font-weight: normal; }
- .b-s { font-weight: bold; }
- .fw1-s { font-weight: 100; }
- .fw2-s { font-weight: 200; }
- .fw3-s { font-weight: 300; }
- .fw4-s { font-weight: 400; }
- .fw5-s { font-weight: 500; }
- .fw6-s { font-weight: 600; }
- .fw7-s { font-weight: 700; }
- .fw8-s { font-weight: 800; }
- .fw9-s { font-weight: 900; }
  .clip-s { position: fixed !important; _position: absolute !important; clip: rect( 1px 1px 1px 1px ); clip: rect( 1px, 1px, 1px, 1px ); }
  .ws-normal-s { white-space: normal; }
  .nowrap-s { white-space: nowrap; }
@@ -2222,22 +2152,6 @@ body, .t-body { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir 
  .w-100-s { width: 100%; }
  .w-third-s { width: calc( 100% / 3 ); }
  .w-two-thirds-s { width: calc( 100% / 1.5 ); }
- .vw-10-s { width: 10vw; }
- .vw-20-s { width: 20vw; }
- .vw-25-s { width: 25vw; }
- .vw-30-s { width: 30vw; }
- .vw-33-s { width: 33vw; }
- .vw-34-s { width: 34vw; }
- .vw-40-s { width: 40vw; }
- .vw-50-s { width: 50vw; }
- .vw-60-s { width: 60vw; }
- .vw-70-s { width: 70vw; }
- .vw-75-s { width: 75vw; }
- .vw-80-s { width: 80vw; }
- .vw-90-s { width: 90vw; }
- .vw-100-s { width: 100vw; }
- .vw-third-s { width: calc( 100vw / 3 ); }
- .vw-two-thirds-s { width: calc( 100vw / 1.5 ); }
  .w-auto-s { width: auto; }
 }
 @media screen and (min-width: 40em) {
@@ -3039,6 +2953,28 @@ body, .t-body { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir 
  .fs-normal-ns { font-style: normal; }
  .i-m { font-style: italic; }
  .fs-normal-m { font-style: normal; }
+ .normal-ns { font-weight: normal; }
+ .b-ns { font-weight: bold; }
+ .fw1-ns { font-weight: 100; }
+ .fw2-ns { font-weight: 200; }
+ .fw3-ns { font-weight: 300; }
+ .fw4-ns { font-weight: 400; }
+ .fw5-ns { font-weight: 500; }
+ .fw6-ns { font-weight: 600; }
+ .fw7-ns { font-weight: 700; }
+ .fw8-ns { font-weight: 800; }
+ .fw9-ns { font-weight: 900; }
+ .normal-m { font-weight: normal; }
+ .b-m { font-weight: bold; }
+ .fw1-m { font-weight: 100; }
+ .fw2-m { font-weight: 200; }
+ .fw3-m { font-weight: 300; }
+ .fw4-m { font-weight: 400; }
+ .fw5-m { font-weight: 500; }
+ .fw6-m { font-weight: 600; }
+ .fw7-m { font-weight: 700; }
+ .fw8-m { font-weight: 800; }
+ .fw9-m { font-weight: 900; }
  .h1-ns { height: 1rem; }
  .h2-ns { height: 2rem; }
  .h3-ns { height: 4rem; }
@@ -3073,18 +3009,6 @@ body, .t-body { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir 
  .min-vh-100-m { min-height: 100vh; }
  .h-auto-m { height: auto; }
  .h-inherit-m { height: inherit; }
- .h-small-ns { height: 2rem; box-sizing: border-box; }
- .min-h-small-ns { min-height: 2rem; box-sizing: border-box; }
- .h-regular-ns { height: 2.5rem; box-sizing: border-box; }
- .min-h-regular-ns { min-height: 2.5rem; box-sizing: border-box; }
- .h-large-ns { height: 3rem; box-sizing: border-box; }
- .min-h-large-ns { min-height: 3rem; box-sizing: border-box; }
- .h-small-m { height: 2rem; box-sizing: border-box; }
- .min-h-small-m { min-height: 2rem; box-sizing: border-box; }
- .h-regular-m { height: 2.5rem; box-sizing: border-box; }
- .min-h-regular-m { min-height: 2.5rem; box-sizing: border-box; }
- .h-large-m { height: 3rem; box-sizing: border-box; }
- .min-h-large-m { min-height: 3rem; box-sizing: border-box; }
  .tracked-ns { letter-spacing: .1em; }
  .tracked-tight-ns { letter-spacing: -.05em; }
  .tracked-mega-ns { letter-spacing: .25em; }
@@ -3193,12 +3117,10 @@ body, .t-body { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir 
  .relative-ns { position: relative; }
  .absolute-ns { position: absolute; }
  .fixed-ns { position: fixed; }
- .sticky-ns { position: -webkit-sticky; position: sticky; }
  .static-m { position: static; }
  .relative-m { position: relative; }
  .absolute-m { position: absolute; }
  .fixed-m { position: fixed; }
- .sticky-m { position: -webkit-sticky; position: sticky; }
  .strike-ns { text-decoration: line-through; }
  .underline-ns { text-decoration: underline; }
  .no-underline-ns { text-decoration: none; }
@@ -3241,60 +3163,12 @@ body, .t-body { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir 
  .small-caps-ns { font-variant: small-caps; }
  .indent-ns { text-indent: 1em; margin-top: 0; margin-bottom: 0; }
  .truncate-ns { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
- .t-heading-1-ns { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif; font-weight: 700; font-size: 3rem; text-transform: initial; letter-spacing: 0; }
- .t-heading-2-ns { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif; font-weight: 700; font-size: 2.25rem; text-transform: initial; letter-spacing: 0; }
- .t-heading-3-ns { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif; font-weight: 700; font-size: 1.75rem; text-transform: initial; letter-spacing: 0; }
- .t-heading-4-ns { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif; font-weight: normal; font-size: 1.5rem; text-transform: initial; letter-spacing: 0; }
- .t-heading-5-ns { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif; font-weight: normal; font-size: 1.25rem; text-transform: initial; letter-spacing: 0; }
- .t-heading-6-ns { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif; font-weight: normal; font-size: 1.25rem; text-transform: initial; letter-spacing: 0; }
- body, .t-body-ns { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif; font-weight: normal; font-size: 1rem; text-transform: initial; letter-spacing: 0; }
- .t-small-ns { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif; font-weight: normal; font-size: .875rem; text-transform: initial; letter-spacing: 0; }
- .t-mini-ns { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif; font-weight: normal; font-size: .75rem; text-transform: initial; letter-spacing: 0; }
- .t-action-ns { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif; font-weight: 500; font-size: 1rem; text-transform: uppercase; letter-spacing: 0; }
- .t-action--small-ns { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif; font-weight: 500; font-size: .875rem; text-transform: uppercase; letter-spacing: 0; }
- .t-action--large-ns { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif; font-weight: 500; font-size: 1.25rem; text-transform: uppercase; letter-spacing: 0; }
- .t-code-ns { font-family: Consolas, monaco, monospace; font-weight: normal; font-size: 1rem; text-transform: initial; letter-spacing: 0; }
  .measure-m { max-width: 30em; }
  .measure-wide-m { max-width: 34em; }
  .measure-narrow-m { max-width: 20em; }
  .small-caps-m { font-variant: small-caps; }
  .indent-m { text-indent: 1em; margin-top: 0; margin-bottom: 0; }
  .truncate-m { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
- .t-heading-1-m { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif; font-weight: 700; font-size: 3rem; text-transform: initial; letter-spacing: 0; }
- .t-heading-2-m { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif; font-weight: 700; font-size: 2.25rem; text-transform: initial; letter-spacing: 0; }
- .t-heading-3-m { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif; font-weight: 700; font-size: 1.75rem; text-transform: initial; letter-spacing: 0; }
- .t-heading-4-m { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif; font-weight: normal; font-size: 1.5rem; text-transform: initial; letter-spacing: 0; }
- .t-heading-5-m { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif; font-weight: normal; font-size: 1.25rem; text-transform: initial; letter-spacing: 0; }
- .t-heading-6-m { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif; font-weight: normal; font-size: 1.25rem; text-transform: initial; letter-spacing: 0; }
- body, .t-body-m { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif; font-weight: normal; font-size: 1rem; text-transform: initial; letter-spacing: 0; }
- .t-small-m { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif; font-weight: normal; font-size: .875rem; text-transform: initial; letter-spacing: 0; }
- .t-mini-m { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif; font-weight: normal; font-size: .75rem; text-transform: initial; letter-spacing: 0; }
- .t-action-m { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif; font-weight: 500; font-size: 1rem; text-transform: uppercase; letter-spacing: 0; }
- .t-action--small-m { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif; font-weight: 500; font-size: .875rem; text-transform: uppercase; letter-spacing: 0; }
- .t-action--large-m { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif; font-weight: 500; font-size: 1.25rem; text-transform: uppercase; letter-spacing: 0; }
- .t-code-m { font-family: Consolas, monaco, monospace; font-weight: normal; font-size: 1rem; text-transform: initial; letter-spacing: 0; }
- .normal-ns { font-weight: normal; }
- .b-ns { font-weight: bold; }
- .fw1-ns { font-weight: 100; }
- .fw2-ns { font-weight: 200; }
- .fw3-ns { font-weight: 300; }
- .fw4-ns { font-weight: 400; }
- .fw5-ns { font-weight: 500; }
- .fw6-ns { font-weight: 600; }
- .fw7-ns { font-weight: 700; }
- .fw8-ns { font-weight: 800; }
- .fw9-ns { font-weight: 900; }
- .normal-m { font-weight: normal; }
- .b-m { font-weight: bold; }
- .fw1-m { font-weight: 100; }
- .fw2-m { font-weight: 200; }
- .fw3-m { font-weight: 300; }
- .fw4-m { font-weight: 400; }
- .fw5-m { font-weight: 500; }
- .fw6-m { font-weight: 600; }
- .fw7-m { font-weight: 700; }
- .fw8-m { font-weight: 800; }
- .fw9-m { font-weight: 900; }
  .clip-ns { position: fixed !important; _position: absolute !important; clip: rect( 1px 1px 1px 1px ); clip: rect( 1px, 1px, 1px, 1px ); }
  .clip-m { position: fixed !important; _position: absolute !important; clip: rect( 1px 1px 1px 1px ); clip: rect( 1px, 1px, 1px, 1px ); }
  .ws-normal-ns { white-space: normal; }
@@ -3324,22 +3198,6 @@ body, .t-body { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir 
  .w-100-ns { width: 100%; }
  .w-third-ns { width: calc( 100% / 3 ); }
  .w-two-thirds-ns { width: calc( 100% / 1.5 ); }
- .vw-10-ns { width: 10vw; }
- .vw-20-ns { width: 20vw; }
- .vw-25-ns { width: 25vw; }
- .vw-30-ns { width: 30vw; }
- .vw-33-ns { width: 33vw; }
- .vw-34-ns { width: 34vw; }
- .vw-40-ns { width: 40vw; }
- .vw-50-ns { width: 50vw; }
- .vw-60-ns { width: 60vw; }
- .vw-70-ns { width: 70vw; }
- .vw-75-ns { width: 75vw; }
- .vw-80-ns { width: 80vw; }
- .vw-90-ns { width: 90vw; }
- .vw-100-ns { width: 100vw; }
- .vw-third-ns { width: calc( 100vw / 3 ); }
- .vw-two-thirds-ns { width: calc( 100vw / 1.5 ); }
  .w-auto-ns { width: auto; }
  .w1-m { width: 1rem; }
  .w2-m { width: 2rem; }
@@ -3362,22 +3220,6 @@ body, .t-body { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir 
  .w-100-m { width: 100%; }
  .w-third-m { width: calc( 100% / 3 ); }
  .w-two-thirds-m { width: calc( 100% / 1.5 ); }
- .vw-10-m { width: 10vw; }
- .vw-20-m { width: 20vw; }
- .vw-25-m { width: 25vw; }
- .vw-30-m { width: 30vw; }
- .vw-33-m { width: 33vw; }
- .vw-34-m { width: 34vw; }
- .vw-40-m { width: 40vw; }
- .vw-50-m { width: 50vw; }
- .vw-60-m { width: 60vw; }
- .vw-70-m { width: 70vw; }
- .vw-75-m { width: 75vw; }
- .vw-80-m { width: 80vw; }
- .vw-90-m { width: 90vw; }
- .vw-100-m { width: 100vw; }
- .vw-third-m { width: calc( 100vw / 3 ); }
- .vw-two-thirds-m { width: calc( 100vw / 1.5 ); }
  .w-auto-m { width: auto; }
 }
 @media screen and (min-width: 64em) {
@@ -3780,6 +3622,17 @@ body, .t-body { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir 
  .fn-l { float: none; }
  .i-l { font-style: italic; }
  .fs-normal-l { font-style: normal; }
+ .normal-l { font-weight: normal; }
+ .b-l { font-weight: bold; }
+ .fw1-l { font-weight: 100; }
+ .fw2-l { font-weight: 200; }
+ .fw3-l { font-weight: 300; }
+ .fw4-l { font-weight: 400; }
+ .fw5-l { font-weight: 500; }
+ .fw6-l { font-weight: 600; }
+ .fw7-l { font-weight: 700; }
+ .fw8-l { font-weight: 800; }
+ .fw9-l { font-weight: 900; }
  .h1-l { height: 1rem; }
  .h2-l { height: 2rem; }
  .h3-l { height: 4rem; }
@@ -3797,12 +3650,6 @@ body, .t-body { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir 
  .min-vh-100-l { min-height: 100vh; }
  .h-auto-l { height: auto; }
  .h-inherit-l { height: inherit; }
- .h-small-l { height: 2rem; box-sizing: border-box; }
- .min-h-small-l { min-height: 2rem; box-sizing: border-box; }
- .h-regular-l { height: 2.5rem; box-sizing: border-box; }
- .min-h-regular-l { min-height: 2.5rem; box-sizing: border-box; }
- .h-large-l { height: 3rem; box-sizing: border-box; }
- .min-h-large-l { min-height: 3rem; box-sizing: border-box; }
  .tracked-l { letter-spacing: .1em; }
  .tracked-tight-l { letter-spacing: -.05em; }
  .tracked-mega-l { letter-spacing: .25em; }
@@ -3859,7 +3706,6 @@ body, .t-body { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir 
  .relative-l { position: relative; }
  .absolute-l { position: absolute; }
  .fixed-l { position: fixed; }
- .sticky-l { position: -webkit-sticky; position: sticky; }
  .strike-l { text-decoration: line-through; }
  .underline-l { text-decoration: underline; }
  .no-underline-l { text-decoration: none; }
@@ -3884,30 +3730,6 @@ body, .t-body { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir 
  .small-caps-l { font-variant: small-caps; }
  .indent-l { text-indent: 1em; margin-top: 0; margin-bottom: 0; }
  .truncate-l { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
- .t-heading-1-l { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif; font-weight: 700; font-size: 3rem; text-transform: initial; letter-spacing: 0; }
- .t-heading-2-l { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif; font-weight: 700; font-size: 2.25rem; text-transform: initial; letter-spacing: 0; }
- .t-heading-3-l { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif; font-weight: 700; font-size: 1.75rem; text-transform: initial; letter-spacing: 0; }
- .t-heading-4-l { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif; font-weight: normal; font-size: 1.5rem; text-transform: initial; letter-spacing: 0; }
- .t-heading-5-l { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif; font-weight: normal; font-size: 1.25rem; text-transform: initial; letter-spacing: 0; }
- .t-heading-6-l { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif; font-weight: normal; font-size: 1.25rem; text-transform: initial; letter-spacing: 0; }
- body, .t-body-l { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif; font-weight: normal; font-size: 1rem; text-transform: initial; letter-spacing: 0; }
- .t-small-l { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif; font-weight: normal; font-size: .875rem; text-transform: initial; letter-spacing: 0; }
- .t-mini-l { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif; font-weight: normal; font-size: .75rem; text-transform: initial; letter-spacing: 0; }
- .t-action-l { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif; font-weight: 500; font-size: 1rem; text-transform: uppercase; letter-spacing: 0; }
- .t-action--small-l { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif; font-weight: 500; font-size: .875rem; text-transform: uppercase; letter-spacing: 0; }
- .t-action--large-l { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif; font-weight: 500; font-size: 1.25rem; text-transform: uppercase; letter-spacing: 0; }
- .t-code-l { font-family: Consolas, monaco, monospace; font-weight: normal; font-size: 1rem; text-transform: initial; letter-spacing: 0; }
- .normal-l { font-weight: normal; }
- .b-l { font-weight: bold; }
- .fw1-l { font-weight: 100; }
- .fw2-l { font-weight: 200; }
- .fw3-l { font-weight: 300; }
- .fw4-l { font-weight: 400; }
- .fw5-l { font-weight: 500; }
- .fw6-l { font-weight: 600; }
- .fw7-l { font-weight: 700; }
- .fw8-l { font-weight: 800; }
- .fw9-l { font-weight: 900; }
  .clip-l { position: fixed !important; _position: absolute !important; clip: rect( 1px 1px 1px 1px ); clip: rect( 1px, 1px, 1px, 1px ); }
  .ws-normal-l { white-space: normal; }
  .nowrap-l { white-space: nowrap; }
@@ -3933,22 +3755,6 @@ body, .t-body { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir 
  .w-100-l { width: 100%; }
  .w-third-l { width: calc( 100% / 3 ); }
  .w-two-thirds-l { width: calc( 100% / 1.5 ); }
- .vw-10-l { width: 10vw; }
- .vw-20-l { width: 20vw; }
- .vw-25-l { width: 25vw; }
- .vw-30-l { width: 30vw; }
- .vw-33-l { width: 33vw; }
- .vw-34-l { width: 34vw; }
- .vw-40-l { width: 40vw; }
- .vw-50-l { width: 50vw; }
- .vw-60-l { width: 60vw; }
- .vw-70-l { width: 70vw; }
- .vw-75-l { width: 75vw; }
- .vw-80-l { width: 80vw; }
- .vw-90-l { width: 90vw; }
- .vw-100-l { width: 100vw; }
- .vw-third-l { width: calc( 100vw / 3 ); }
- .vw-two-thirds-l { width: calc( 100vw / 1.5 ); }
  .w-auto-l { width: auto; }
 }
 @media screen and (min-width: 80em) {
@@ -4351,6 +4157,17 @@ body, .t-body { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir 
  .fn-xl { float: none; }
  .i-xl { font-style: italic; }
  .fs-normal-xl { font-style: normal; }
+ .normal-xl { font-weight: normal; }
+ .b-xl { font-weight: bold; }
+ .fw1-xl { font-weight: 100; }
+ .fw2-xl { font-weight: 200; }
+ .fw3-xl { font-weight: 300; }
+ .fw4-xl { font-weight: 400; }
+ .fw5-xl { font-weight: 500; }
+ .fw6-xl { font-weight: 600; }
+ .fw7-xl { font-weight: 700; }
+ .fw8-xl { font-weight: 800; }
+ .fw9-xl { font-weight: 900; }
  .h1-xl { height: 1rem; }
  .h2-xl { height: 2rem; }
  .h3-xl { height: 4rem; }
@@ -4368,12 +4185,6 @@ body, .t-body { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir 
  .min-vh-100-xl { min-height: 100vh; }
  .h-auto-xl { height: auto; }
  .h-inherit-xl { height: inherit; }
- .h-small-xl { height: 2rem; box-sizing: border-box; }
- .min-h-small-xl { min-height: 2rem; box-sizing: border-box; }
- .h-regular-xl { height: 2.5rem; box-sizing: border-box; }
- .min-h-regular-xl { min-height: 2.5rem; box-sizing: border-box; }
- .h-large-xl { height: 3rem; box-sizing: border-box; }
- .min-h-large-xl { min-height: 3rem; box-sizing: border-box; }
  .tracked-xl { letter-spacing: .1em; }
  .tracked-tight-xl { letter-spacing: -.05em; }
  .tracked-mega-xl { letter-spacing: .25em; }
@@ -4430,7 +4241,6 @@ body, .t-body { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir 
  .relative-xl { position: relative; }
  .absolute-xl { position: absolute; }
  .fixed-xl { position: fixed; }
- .sticky-xl { position: -webkit-sticky; position: sticky; }
  .strike-xl { text-decoration: line-through; }
  .underline-xl { text-decoration: underline; }
  .no-underline-xl { text-decoration: none; }
@@ -4455,30 +4265,6 @@ body, .t-body { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir 
  .small-caps-xl { font-variant: small-caps; }
  .indent-xl { text-indent: 1em; margin-top: 0; margin-bottom: 0; }
  .truncate-xl { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
- .t-heading-1-xl { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif; font-weight: 700; font-size: 3rem; text-transform: initial; letter-spacing: 0; }
- .t-heading-2-xl { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif; font-weight: 700; font-size: 2.25rem; text-transform: initial; letter-spacing: 0; }
- .t-heading-3-xl { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif; font-weight: 700; font-size: 1.75rem; text-transform: initial; letter-spacing: 0; }
- .t-heading-4-xl { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif; font-weight: normal; font-size: 1.5rem; text-transform: initial; letter-spacing: 0; }
- .t-heading-5-xl { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif; font-weight: normal; font-size: 1.25rem; text-transform: initial; letter-spacing: 0; }
- .t-heading-6-xl { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif; font-weight: normal; font-size: 1.25rem; text-transform: initial; letter-spacing: 0; }
- body, .t-body-xl { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif; font-weight: normal; font-size: 1rem; text-transform: initial; letter-spacing: 0; }
- .t-small-xl { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif; font-weight: normal; font-size: .875rem; text-transform: initial; letter-spacing: 0; }
- .t-mini-xl { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif; font-weight: normal; font-size: .75rem; text-transform: initial; letter-spacing: 0; }
- .t-action-xl { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif; font-weight: 500; font-size: 1rem; text-transform: uppercase; letter-spacing: 0; }
- .t-action--small-xl { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif; font-weight: 500; font-size: .875rem; text-transform: uppercase; letter-spacing: 0; }
- .t-action--large-xl { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif; font-weight: 500; font-size: 1.25rem; text-transform: uppercase; letter-spacing: 0; }
- .t-code-xl { font-family: Consolas, monaco, monospace; font-weight: normal; font-size: 1rem; text-transform: initial; letter-spacing: 0; }
- .normal-xl { font-weight: normal; }
- .b-xl { font-weight: bold; }
- .fw1-xl { font-weight: 100; }
- .fw2-xl { font-weight: 200; }
- .fw3-xl { font-weight: 300; }
- .fw4-xl { font-weight: 400; }
- .fw5-xl { font-weight: 500; }
- .fw6-xl { font-weight: 600; }
- .fw7-xl { font-weight: 700; }
- .fw8-xl { font-weight: 800; }
- .fw9-xl { font-weight: 900; }
  .clip-xl { position: fixed !important; _position: absolute !important; clip: rect( 1px 1px 1px 1px ); clip: rect( 1px, 1px, 1px, 1px ); }
  .ws-normal-xl { white-space: normal; }
  .nowrap-xl { white-space: nowrap; }
@@ -4504,21 +4290,5 @@ body, .t-body { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir 
  .w-100-xl { width: 100%; }
  .w-third-xl { width: calc( 100% / 3 ); }
  .w-two-thirds-xl { width: calc( 100% / 1.5 ); }
- .vw-10-xl { width: 10vw; }
- .vw-20-xl { width: 20vw; }
- .vw-25-xl { width: 25vw; }
- .vw-30-xl { width: 30vw; }
- .vw-33-xl { width: 33vw; }
- .vw-34-xl { width: 34vw; }
- .vw-40-xl { width: 40vw; }
- .vw-50-xl { width: 50vw; }
- .vw-60-xl { width: 60vw; }
- .vw-70-xl { width: 70vw; }
- .vw-75-xl { width: 75vw; }
- .vw-80-xl { width: 80vw; }
- .vw-90-xl { width: 90vw; }
- .vw-100-xl { width: 100vw; }
- .vw-third-xl { width: calc( 100vw / 3 ); }
- .vw-two-thirds-xl { width: calc( 100vw / 1.5 ); }
  .w-auto-xl { width: auto; }
 }
