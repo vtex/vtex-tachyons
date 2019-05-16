@@ -5,7 +5,7 @@
   "main": "tachyons.css",
   "scripts": {
     "build": "node index.js",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "yarn install && npm run build"
   },
   "repository": {
     "type": "git",
