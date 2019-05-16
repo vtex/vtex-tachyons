@@ -1,11 +1,11 @@
 {
   "name": "vtex-tachyons",
-  "version": "3.1.1",
+  "version": "3.1.2",
   "description": "A custom Tachyons for VTEX",
   "main": "tachyons.css",
   "scripts": {
     "build": "node index.js",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "yarn install && npm run build"
   },
   "repository": {
     "type": "git",
