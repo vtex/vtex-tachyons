@@ -4,7 +4,7 @@ const tachyonsGenerator = require('@vtex/tachyons-generator')
 
 const config = require('./config.js')
 
-const writeTo = (file, promisedContent) =>
+const writePromise = (file, promisedContent) =>
   promisedContent.then(data => writeFile(file, data))
 
 const init = async () => {
@@ -18,11 +18,11 @@ const init = async () => {
   const generate = () => {
     const tachy = tachyonsGenerator(config)
 
-    writeTo('index.html', tachy.docs())
-    writeTo('tachyons.css', tachy.generate())
-    writeTo('tachyons.min.css', tachy.generate({ minify: true }))
-    writeTo('tachyons.print.css', tachy.generatePrint({ key: 'print' }))
-    writeTo(
+    writePromise('index.html', tachy.docs())
+    writePromise('tachyons.css', tachy.generate())
+    writePromise('tachyons.min.css', tachy.generate({ minify: true }))
+    writePromise('tachyons.print.css', tachy.generatePrint({ key: 'print' }))
+    writePromise(
       'tachyons.print.min.css',
       tachy.generatePrint({ key: 'print', minify: true }),
     )
@@ -33,8 +33,8 @@ const init = async () => {
     const scopedConfig = Object.assign({}, { namespace }, config)
     const tachy = tachyonsGenerator(scopedConfig)
 
-    writeTo('tachyons-scoped.css', tachy.generate())
-    writeTo('tachyons-scoped.min.css', tachy.generate({ minify: true }))
+    writePromise('tachyons-scoped.css', tachy.generate())
+    writePromise('tachyons-scoped.min.css', tachy.generate({ minify: true }))
   }
 
   generate()
