@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@vtex/tachyons-generator@^1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@vtex/tachyons-generator/-/tachyons-generator-1.2.0.tgz#e571caad92368b9df2219b64fcdfc9c31f91dae7"
-  integrity sha512-zjviMEwjd7ortKq+P38OuuXidjfJM00Ff4AKJBCg9WDIoI2G3ZEHjqu2OLpPEFDDJJoZUm+Di5kL27cliwbyCw==
+"@vtex/tachyons-generator@^1.2.1":
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/@vtex/tachyons-generator/-/tachyons-generator-1.2.1.tgz#bdb51ca9c3e10a16125fe1abe1cdbaa0683006a9"
+  integrity sha512-/sYhKqJ1H4Dru2aNcSoPTdi5j1o2QDtqogkC9gPIRvyLMVVTARvpWxRRB/pGzboCgCCVBOgEQXC8/24hwz0S3w==
   dependencies:
     autoprefixer "^8.6.3"
     camelcase "^4.1.0"
@@ -643,9 +643,9 @@ ecc-jsbn@~0.1.1:
     safer-buffer "^2.1.0"
 
 electron-to-chromium@^1.2.7, electron-to-chromium@^1.3.47:
-  version "1.3.155"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.155.tgz#ebf0cc8eeaffd6151d1efad60fd9e021fb45fd3a"
-  integrity sha512-/ci/XgZG8jkLYOgOe3mpJY1onxPPTDY17y7scldhnSjjZqV6VvREG/LvwhRuV7BJbnENFfuDWZkSqlTh4x9ZjQ==
+  version "1.3.156"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.156.tgz#fb07b651516e96af2f7b89f05c9598a46e718801"
+  integrity sha512-mQOd8SAYDoIYRfTS/sr9rjX+PjBdAKU62vzS7CVfVx62KG5GRCWMz0c5Ebt0cb2kPFdl5UVNMXa8eSZt3VHvBw==
 
 encoding@^0.1.11:
   version "0.1.12"

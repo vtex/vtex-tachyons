@@ -21,10 +21,10 @@ const init = async () => {
     writePromise('index.html', tachy.docs())
     writePromise('tachyons.css', tachy.generate())
     writePromise('tachyons.min.css', tachy.generate({ minify: true }))
-    writePromise('tachyons.print.css', tachy.generatePrint({ key: 'print' }))
+    writePromise('tachyons.print.css', tachy.generatePrint())
     writePromise(
       'tachyons.print.min.css',
-      tachy.generatePrint({ key: 'print', minify: true }),
+      tachy.generatePrint({ minify: true }),
     )
   }
 
