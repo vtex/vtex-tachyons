@@ -28,8 +28,6 @@ const init = async () => {
     )
   }
 
-  generate()
-
   const generateScoped = () => {
     const namespace = 'onda-v3'
     const scopedConfig = Object.assign({}, { namespace }, config)
@@ -39,6 +37,7 @@ const init = async () => {
     writeTo('tachyons-scoped.min.css', tachy.generate({ minify: true }))
   }
 
+  generate()
   generateScoped()
 }
 
