@@ -1,0 +1,441 @@
+.pa0-print { padding: 0; }
+.ma0-print { margin: 0; }
+.na0-print { margin: 0; }
+.pl0-print { padding-left: 0; }
+.ml0-print { margin-left: 0; }
+.nl0-print { margin-left: 0; }
+.pr0-print { padding-right: 0; }
+.mr0-print { margin-right: 0; }
+.nr0-print { margin-right: 0; }
+.pt0-print { padding-top: 0; }
+.mt0-print { margin-top: 0; }
+.nt0-print { margin-top: 0; }
+.pb0-print { padding-bottom: 0; }
+.mb0-print { margin-bottom: 0; }
+.nb0-print { margin-bottom: 0; }
+.pv0-print { padding-top: 0; padding-bottom: 0; }
+.mv0-print { margin-top: 0; margin-bottom: 0; }
+.nv0-print { margin-top: 0; margin-bottom: 0; }
+.ph0-print { padding-left: 0; padding-right: 0; }
+.mh0-print { margin-left: 0; margin-right: 0; }
+.nh0-print { margin-left: 0; margin-right: 0; }
+.pa1-print { padding: .125rem; }
+.ma1-print { margin: .125rem; }
+.na1-print { margin: -0.125rem; }
+.pl1-print { padding-left: .125rem; }
+.ml1-print { margin-left: .125rem; }
+.nl1-print { margin-left: -0.125rem; }
+.pr1-print { padding-right: .125rem; }
+.mr1-print { margin-right: .125rem; }
+.nr1-print { margin-right: -0.125rem; }
+.pt1-print { padding-top: .125rem; }
+.mt1-print { margin-top: .125rem; }
+.nt1-print { margin-top: -0.125rem; }
+.pb1-print { padding-bottom: .125rem; }
+.mb1-print { margin-bottom: .125rem; }
+.nb1-print { margin-bottom: -0.125rem; }
+.pv1-print { padding-top: .125rem; padding-bottom: .125rem; }
+.mv1-print { margin-top: .125rem; margin-bottom: .125rem; }
+.nv1-print { margin-top: -0.125rem; margin-bottom: -0.125rem; }
+.ph1-print { padding-left: .125rem; padding-right: .125rem; }
+.mh1-print { margin-left: .125rem; margin-right: .125rem; }
+.nh1-print { margin-left: -0.125rem; margin-right: -0.125rem; }
+.pa2-print { padding: .25rem; }
+.ma2-print { margin: .25rem; }
+.na2-print { margin: -0.25rem; }
+.pl2-print { padding-left: .25rem; }
+.ml2-print { margin-left: .25rem; }
+.nl2-print { margin-left: -0.25rem; }
+.pr2-print { padding-right: .25rem; }
+.mr2-print { margin-right: .25rem; }
+.nr2-print { margin-right: -0.25rem; }
+.pt2-print { padding-top: .25rem; }
+.mt2-print { margin-top: .25rem; }
+.nt2-print { margin-top: -0.25rem; }
+.pb2-print { padding-bottom: .25rem; }
+.mb2-print { margin-bottom: .25rem; }
+.nb2-print { margin-bottom: -0.25rem; }
+.pv2-print { padding-top: .25rem; padding-bottom: .25rem; }
+.mv2-print { margin-top: .25rem; margin-bottom: .25rem; }
+.nv2-print { margin-top: -0.25rem; margin-bottom: -0.25rem; }
+.ph2-print { padding-left: .25rem; padding-right: .25rem; }
+.mh2-print { margin-left: .25rem; margin-right: .25rem; }
+.nh2-print { margin-left: -0.25rem; margin-right: -0.25rem; }
+.pa3-print { padding: .5rem; }
+.ma3-print { margin: .5rem; }
+.na3-print { margin: -0.5rem; }
+.pl3-print { padding-left: .5rem; }
+.ml3-print { margin-left: .5rem; }
+.nl3-print { margin-left: -0.5rem; }
+.pr3-print { padding-right: .5rem; }
+.mr3-print { margin-right: .5rem; }
+.nr3-print { margin-right: -0.5rem; }
+.pt3-print { padding-top: .5rem; }
+.mt3-print { margin-top: .5rem; }
+.nt3-print { margin-top: -0.5rem; }
+.pb3-print { padding-bottom: .5rem; }
+.mb3-print { margin-bottom: .5rem; }
+.nb3-print { margin-bottom: -0.5rem; }
+.pv3-print { padding-top: .5rem; padding-bottom: .5rem; }
+.mv3-print { margin-top: .5rem; margin-bottom: .5rem; }
+.nv3-print { margin-top: -0.5rem; margin-bottom: -0.5rem; }
+.ph3-print { padding-left: .5rem; padding-right: .5rem; }
+.mh3-print { margin-left: .5rem; margin-right: .5rem; }
+.nh3-print { margin-left: -0.5rem; margin-right: -0.5rem; }
+.pa4-print { padding: .75rem; }
+.ma4-print { margin: .75rem; }
+.na4-print { margin: -0.75rem; }
+.pl4-print { padding-left: .75rem; }
+.ml4-print { margin-left: .75rem; }
+.nl4-print { margin-left: -0.75rem; }
+.pr4-print { padding-right: .75rem; }
+.mr4-print { margin-right: .75rem; }
+.nr4-print { margin-right: -0.75rem; }
+.pt4-print { padding-top: .75rem; }
+.mt4-print { margin-top: .75rem; }
+.nt4-print { margin-top: -0.75rem; }
+.pb4-print { padding-bottom: .75rem; }
+.mb4-print { margin-bottom: .75rem; }
+.nb4-print { margin-bottom: -0.75rem; }
+.pv4-print { padding-top: .75rem; padding-bottom: .75rem; }
+.mv4-print { margin-top: .75rem; margin-bottom: .75rem; }
+.nv4-print { margin-top: -0.75rem; margin-bottom: -0.75rem; }
+.ph4-print { padding-left: .75rem; padding-right: .75rem; }
+.mh4-print { margin-left: .75rem; margin-right: .75rem; }
+.nh4-print { margin-left: -0.75rem; margin-right: -0.75rem; }
+.pa5-print { padding: 1rem; }
+.ma5-print { margin: 1rem; }
+.na5-print { margin: -1rem; }
+.pl5-print { padding-left: 1rem; }
+.ml5-print { margin-left: 1rem; }
+.nl5-print { margin-left: -1rem; }
+.pr5-print { padding-right: 1rem; }
+.mr5-print { margin-right: 1rem; }
+.nr5-print { margin-right: -1rem; }
+.pt5-print { padding-top: 1rem; }
+.mt5-print { margin-top: 1rem; }
+.nt5-print { margin-top: -1rem; }
+.pb5-print { padding-bottom: 1rem; }
+.mb5-print { margin-bottom: 1rem; }
+.nb5-print { margin-bottom: -1rem; }
+.pv5-print { padding-top: 1rem; padding-bottom: 1rem; }
+.mv5-print { margin-top: 1rem; margin-bottom: 1rem; }
+.nv5-print { margin-top: -1rem; margin-bottom: -1rem; }
+.ph5-print { padding-left: 1rem; padding-right: 1rem; }
+.mh5-print { margin-left: 1rem; margin-right: 1rem; }
+.nh5-print { margin-left: -1rem; margin-right: -1rem; }
+.pa6-print { padding: 1.5rem; }
+.ma6-print { margin: 1.5rem; }
+.na6-print { margin: -1.5rem; }
+.pl6-print { padding-left: 1.5rem; }
+.ml6-print { margin-left: 1.5rem; }
+.nl6-print { margin-left: -1.5rem; }
+.pr6-print { padding-right: 1.5rem; }
+.mr6-print { margin-right: 1.5rem; }
+.nr6-print { margin-right: -1.5rem; }
+.pt6-print { padding-top: 1.5rem; }
+.mt6-print { margin-top: 1.5rem; }
+.nt6-print { margin-top: -1.5rem; }
+.pb6-print { padding-bottom: 1.5rem; }
+.mb6-print { margin-bottom: 1.5rem; }
+.nb6-print { margin-bottom: -1.5rem; }
+.pv6-print { padding-top: 1.5rem; padding-bottom: 1.5rem; }
+.mv6-print { margin-top: 1.5rem; margin-bottom: 1.5rem; }
+.nv6-print { margin-top: -1.5rem; margin-bottom: -1.5rem; }
+.ph6-print { padding-left: 1.5rem; padding-right: 1.5rem; }
+.mh6-print { margin-left: 1.5rem; margin-right: 1.5rem; }
+.nh6-print { margin-left: -1.5rem; margin-right: -1.5rem; }
+.pa7-print { padding: 2rem; }
+.ma7-print { margin: 2rem; }
+.na7-print { margin: -2rem; }
+.pl7-print { padding-left: 2rem; }
+.ml7-print { margin-left: 2rem; }
+.nl7-print { margin-left: -2rem; }
+.pr7-print { padding-right: 2rem; }
+.mr7-print { margin-right: 2rem; }
+.nr7-print { margin-right: -2rem; }
+.pt7-print { padding-top: 2rem; }
+.mt7-print { margin-top: 2rem; }
+.nt7-print { margin-top: -2rem; }
+.pb7-print { padding-bottom: 2rem; }
+.mb7-print { margin-bottom: 2rem; }
+.nb7-print { margin-bottom: -2rem; }
+.pv7-print { padding-top: 2rem; padding-bottom: 2rem; }
+.mv7-print { margin-top: 2rem; margin-bottom: 2rem; }
+.nv7-print { margin-top: -2rem; margin-bottom: -2rem; }
+.ph7-print { padding-left: 2rem; padding-right: 2rem; }
+.mh7-print { margin-left: 2rem; margin-right: 2rem; }
+.nh7-print { margin-left: -2rem; margin-right: -2rem; }
+.pa8-print { padding: 3rem; }
+.ma8-print { margin: 3rem; }
+.na8-print { margin: -3rem; }
+.pl8-print { padding-left: 3rem; }
+.ml8-print { margin-left: 3rem; }
+.nl8-print { margin-left: -3rem; }
+.pr8-print { padding-right: 3rem; }
+.mr8-print { margin-right: 3rem; }
+.nr8-print { margin-right: -3rem; }
+.pt8-print { padding-top: 3rem; }
+.mt8-print { margin-top: 3rem; }
+.nt8-print { margin-top: -3rem; }
+.pb8-print { padding-bottom: 3rem; }
+.mb8-print { margin-bottom: 3rem; }
+.nb8-print { margin-bottom: -3rem; }
+.pv8-print { padding-top: 3rem; padding-bottom: 3rem; }
+.mv8-print { margin-top: 3rem; margin-bottom: 3rem; }
+.nv8-print { margin-top: -3rem; margin-bottom: -3rem; }
+.ph8-print { padding-left: 3rem; padding-right: 3rem; }
+.mh8-print { margin-left: 3rem; margin-right: 3rem; }
+.nh8-print { margin-left: -3rem; margin-right: -3rem; }
+.pa9-print { padding: 4rem; }
+.ma9-print { margin: 4rem; }
+.na9-print { margin: -4rem; }
+.pl9-print { padding-left: 4rem; }
+.ml9-print { margin-left: 4rem; }
+.nl9-print { margin-left: -4rem; }
+.pr9-print { padding-right: 4rem; }
+.mr9-print { margin-right: 4rem; }
+.nr9-print { margin-right: -4rem; }
+.pt9-print { padding-top: 4rem; }
+.mt9-print { margin-top: 4rem; }
+.nt9-print { margin-top: -4rem; }
+.pb9-print { padding-bottom: 4rem; }
+.mb9-print { margin-bottom: 4rem; }
+.nb9-print { margin-bottom: -4rem; }
+.pv9-print { padding-top: 4rem; padding-bottom: 4rem; }
+.mv9-print { margin-top: 4rem; margin-bottom: 4rem; }
+.nv9-print { margin-top: -4rem; margin-bottom: -4rem; }
+.ph9-print { padding-left: 4rem; padding-right: 4rem; }
+.mh9-print { margin-left: 4rem; margin-right: 4rem; }
+.nh9-print { margin-left: -4rem; margin-right: -4rem; }
+.pa10-print { padding: 8rem; }
+.ma10-print { margin: 8rem; }
+.na10-print { margin: -8rem; }
+.pl10-print { padding-left: 8rem; }
+.ml10-print { margin-left: 8rem; }
+.nl10-print { margin-left: -8rem; }
+.pr10-print { padding-right: 8rem; }
+.mr10-print { margin-right: 8rem; }
+.nr10-print { margin-right: -8rem; }
+.pt10-print { padding-top: 8rem; }
+.mt10-print { margin-top: 8rem; }
+.nt10-print { margin-top: -8rem; }
+.pb10-print { padding-bottom: 8rem; }
+.mb10-print { margin-bottom: 8rem; }
+.nb10-print { margin-bottom: -8rem; }
+.pv10-print { padding-top: 8rem; padding-bottom: 8rem; }
+.mv10-print { margin-top: 8rem; margin-bottom: 8rem; }
+.nv10-print { margin-top: -8rem; margin-bottom: -8rem; }
+.ph10-print { padding-left: 8rem; padding-right: 8rem; }
+.mh10-print { margin-left: 8rem; margin-right: 8rem; }
+.nh10-print { margin-left: -8rem; margin-right: -8rem; }
+.pa11-print { padding: 16rem; }
+.ma11-print { margin: 16rem; }
+.na11-print { margin: -16rem; }
+.pl11-print { padding-left: 16rem; }
+.ml11-print { margin-left: 16rem; }
+.nl11-print { margin-left: -16rem; }
+.pr11-print { padding-right: 16rem; }
+.mr11-print { margin-right: 16rem; }
+.nr11-print { margin-right: -16rem; }
+.pt11-print { padding-top: 16rem; }
+.mt11-print { margin-top: 16rem; }
+.nt11-print { margin-top: -16rem; }
+.pb11-print { padding-bottom: 16rem; }
+.mb11-print { margin-bottom: 16rem; }
+.nb11-print { margin-bottom: -16rem; }
+.pv11-print { padding-top: 16rem; padding-bottom: 16rem; }
+.mv11-print { margin-top: 16rem; margin-bottom: 16rem; }
+.nv11-print { margin-top: -16rem; margin-bottom: -16rem; }
+.ph11-print { padding-left: 16rem; padding-right: 16rem; }
+.mh11-print { margin-left: 16rem; margin-right: 16rem; }
+.nh11-print { margin-left: -16rem; margin-right: -16rem; }
+.cf-print:before, .cf-print:after { content: " "; display: table; }
+.cf-print:after { clear: both; }
+.cf-print { *zoom: 1; }
+.cl-print { clear: left; }
+.cr-print { clear: right; }
+.cb-print { clear: both; }
+.cn-print { clear: none; }
+.dn-print { display: none; }
+.di-print { display: inline; }
+.db-print { display: block; }
+.dib-print { display: inline-block; }
+.dit-print { display: inline-table; }
+.dt-print { display: table; }
+.dtc-print { display: table-cell; }
+.dt-row-print { display: table-row; }
+.dt-row-group-print { display: table-row-group; }
+.dt-column-print { display: table-column; }
+.dt-column-group-print { display: table-column-group; }
+.dt--fixed-print { table-layout: fixed; width: 100%; }
+.flex-print { display: flex; }
+.inline-flex-print { display: inline-flex; }
+.flex-auto-print { flex: 1 1 auto; min-width: 0; min-height: 0; }
+.flex-none-print { flex: none; }
+.flex-column-print { flex-direction: column; }
+.flex-row-print { flex-direction: row; }
+.flex-wrap-print { flex-wrap: wrap; }
+.flex-nowrap-print { flex-wrap: nowrap; }
+.flex-wrap-reverse-print { flex-wrap: wrap-reverse; }
+.flex-column-reverse-print { flex-direction: column-reverse; }
+.flex-row-reverse-print { flex-direction: row-reverse; }
+.items-start-print { align-items: flex-start; }
+.items-end-print { align-items: flex-end; }
+.items-center-print { align-items: center; }
+.items-baseline-print { align-items: baseline; }
+.items-stretch-print { align-items: stretch; }
+.self-start-print { align-self: flex-start; }
+.self-end-print { align-self: flex-end; }
+.self-center-print { align-self: center; }
+.self-baseline-print { align-self: baseline; }
+.self-stretch-print { align-self: stretch; }
+.justify-start-print { justify-content: flex-start; }
+.justify-end-print { justify-content: flex-end; }
+.justify-center-print { justify-content: center; }
+.justify-between-print { justify-content: space-between; }
+.justify-around-print { justify-content: space-around; }
+.content-start-print { align-content: flex-start; }
+.content-end-print { align-content: flex-end; }
+.content-center-print { align-content: center; }
+.content-between-print { align-content: space-between; }
+.content-around-print { align-content: space-around; }
+.content-stretch-print { align-content: stretch; }
+.order-0-print { order: 0; }
+.order-1-print { order: 1; }
+.order-2-print { order: 2; }
+.order-3-print { order: 3; }
+.order-4-print { order: 4; }
+.order-5-print { order: 5; }
+.order-6-print { order: 6; }
+.order-7-print { order: 7; }
+.order-8-print { order: 8; }
+.order-last-print { order: 99999; }
+.flex-grow-0-print { flex-grow: 0; }
+.flex-grow-1-print { flex-grow: 1; }
+.flex-shrink-0-print { flex-shrink: 0; }
+.flex-shrink-1-print { flex-shrink: 1; }
+.fl-print { float: left; _display: inline; }
+.fr-print { float: right; _display: inline; }
+.fn-print { float: none; }
+.i-print { font-style: italic; }
+.fs-normal-print { font-style: normal; }
+.tracked-print { letter-spacing: .1em; }
+.tracked-tight-print { letter-spacing: -.05em; }
+.tracked-mega-print { letter-spacing: .25em; }
+.lh-solid-print { line-height: 1; }
+.lh-title-print { line-height: 1.25; }
+.lh-copy-print { line-height: 1.5; }
+.mw1-print { max-width: 1rem; }
+.mw2-print { max-width: 2rem; }
+.mw3-print { max-width: 4rem; }
+.mw4-print { max-width: 8rem; }
+.mw5-print { max-width: 16rem; }
+.mw6-print { max-width: 32rem; }
+.mw7-print { max-width: 48rem; }
+.mw8-print { max-width: 64rem; }
+.mw9-print { max-width: 96rem; }
+.mw-none-print { max-width: none; }
+.mw-100-print { max-width: 100%; }
+.strike-print { text-decoration: line-through; }
+.underline-print { text-decoration: underline; }
+.no-underline-print { text-decoration: none; }
+.tl-print { text-align: left; }
+.tr-print { text-align: right; }
+.tc-print { text-align: center; }
+.tj-print { text-align: justify; }
+.ttc-print { text-transform: capitalize; }
+.ttl-print { text-transform: lowercase; }
+.ttu-print { text-transform: uppercase; }
+.ttn-print { text-transform: none; }
+.f1-print { font-size: 3rem; }
+.f2-print { font-size: 2.25rem; }
+.f3-print { font-size: 1.5rem; }
+.f4-print { font-size: 1.25rem; }
+.f5-print { font-size: 1rem; }
+.f6-print { font-size: .875rem; }
+.f7-print { font-size: .75rem; }
+.measure-print { max-width: 30em; }
+.measure-wide-print { max-width: 34em; }
+.measure-narrow-print { max-width: 20em; }
+.small-caps-print { font-variant: small-caps; }
+.indent-print { text-indent: 1em; margin-top: 0; margin-bottom: 0; }
+.truncate-print { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.t-heading-1-print { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif; font-weight: 700; font-size: 3rem; text-transform: initial; letter-spacing: 0; }
+.t-heading-2-print { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif; font-weight: 700; font-size: 2.25rem; text-transform: initial; letter-spacing: 0; }
+.t-heading-3-print { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif; font-weight: 700; font-size: 1.75rem; text-transform: initial; letter-spacing: 0; }
+.t-heading-4-print { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif; font-weight: normal; font-size: 1.5rem; text-transform: initial; letter-spacing: 0; }
+.t-heading-5-print { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif; font-weight: normal; font-size: 1.25rem; text-transform: initial; letter-spacing: 0; }
+.t-heading-6-print { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif; font-weight: normal; font-size: 1.25rem; text-transform: initial; letter-spacing: 0; }
+body, .t-body-print { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif; font-weight: normal; font-size: 1rem; text-transform: initial; letter-spacing: 0; }
+.t-small-print { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif; font-weight: normal; font-size: .875rem; text-transform: initial; letter-spacing: 0; }
+.t-mini-print { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif; font-weight: normal; font-size: .75rem; text-transform: initial; letter-spacing: 0; }
+.t-action-print { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif; font-weight: 500; font-size: 1rem; text-transform: uppercase; letter-spacing: 0; }
+.t-action--small-print { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif; font-weight: 500; font-size: .875rem; text-transform: uppercase; letter-spacing: 0; }
+.t-action--large-print { font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif; font-weight: 500; font-size: 1.25rem; text-transform: uppercase; letter-spacing: 0; }
+.t-code-print { font-family: Consolas, monaco, monospace; font-weight: normal; font-size: 1rem; text-transform: initial; letter-spacing: 0; }
+.normal-print { font-weight: normal; }
+.b-print { font-weight: bold; }
+.fw1-print { font-weight: 100; }
+.fw2-print { font-weight: 200; }
+.fw3-print { font-weight: 300; }
+.fw4-print { font-weight: 400; }
+.fw5-print { font-weight: 500; }
+.fw6-print { font-weight: 600; }
+.fw7-print { font-weight: 700; }
+.fw8-print { font-weight: 800; }
+.fw9-print { font-weight: 900; }
+.clip-print { position: fixed !important; _position: absolute !important; clip: rect( 1px 1px 1px 1px ); clip: rect( 1px, 1px, 1px, 1px ); }
+.ws-normal-print { white-space: normal; }
+.nowrap-print { white-space: nowrap; }
+.pre-print { white-space: pre; }
+.w1-print { width: 1rem; }
+.w2-print { width: 2rem; }
+.w3-print { width: 4rem; }
+.w4-print { width: 8rem; }
+.w5-print { width: 16rem; }
+.w-10-print { width: 10%; }
+.w-20-print { width: 20%; }
+.w-25-print { width: 25%; }
+.w-30-print { width: 30%; }
+.w-33-print { width: 33%; }
+.w-34-print { width: 34%; }
+.w-40-print { width: 40%; }
+.w-50-print { width: 50%; }
+.w-60-print { width: 60%; }
+.w-70-print { width: 70%; }
+.w-75-print { width: 75%; }
+.w-80-print { width: 80%; }
+.w-90-print { width: 90%; }
+.w-100-print { width: 100%; }
+.w-third-print { width: calc( 100% / 3 ); }
+.w-two-thirds-print { width: calc( 100% / 1.5 ); }
+.w-auto-print { width: auto; }
+.break-after-auto-print { -webkit-column-break-after: auto; -moz-column-break-after: auto; break-after: auto; }
+.break-after-avoid-print { -webkit-column-break-after: avoid; -moz-column-break-after: avoid; break-after: avoid; }
+.break-after-always-print { -webkit-column-break-after: always; -moz-column-break-after: always; break-after: always; }
+.break-after-all-print { -webkit-column-break-after: all; -moz-column-break-after: all; break-after: all; }
+.break-after-page-print { -webkit-column-break-after: page; -moz-column-break-after: page; break-after: page; }
+.break-after-left-print { -webkit-column-break-after: left; -moz-column-break-after: left; break-after: left; }
+.break-after-right-print { -webkit-column-break-after: right; -moz-column-break-after: right; break-after: right; }
+.break-before-auto-print { -webkit-column-break-before: auto; -moz-column-break-before: auto; break-before: auto; }
+.break-before-avoid-print { -webkit-column-break-before: avoid; -moz-column-break-before: avoid; break-before: avoid; }
+.break-before-always-print { -webkit-column-break-before: always; -moz-column-break-before: always; break-before: always; }
+.break-before-all-print { -webkit-column-break-before: all; -moz-column-break-before: all; break-before: all; }
+.break-before-page-print { -webkit-column-break-before: page; -moz-column-break-before: page; break-before: page; }
+.break-before-left-print { -webkit-column-break-before: left; -moz-column-break-before: left; break-before: left; }
+.break-before-right-print { -webkit-column-break-before: right; -moz-column-break-before: right; break-before: right; }
+.break-inside-auto-print { -webkit-column-break-inside: auto; -moz-column-break-inside: auto; break-inside: auto; }
+.break-inside-avoid-print { -webkit-column-break-inside: avoid; -moz-column-break-inside: avoid; break-inside: avoid; }
+.orphans-1-print { orphans: 1; }
+.orphans-2-print { orphans: 2; }
+.orphans-3-print { orphans: 3; }
+.orphans-4-print { orphans: 4; }
+.orphans-5-print { orphans: 5; }
+.widows-1-print { widows: 1; }
+.widows-2-print { widows: 2; }
+.widows-3-print { widows: 3; }
+.widows-4-print { widows: 4; }
+.widows-5-print { widows: 5; }
+.decoration-break-slice-print { -webkit-box-decoration-break: slice; box-decoration-break: slice; }
+.decoration-break-clone-print { -webkit-box-decoration-break: clone; box-decoration-break: clone; }

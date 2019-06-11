@@ -1,40 +1,44 @@
-const fs = require('fs')
+const { writeFile } = require('fs').promises
 const path = require('path')
 const tachyonsGenerator = require('@vtex/tachyons-generator')
 
 const config = require('./config.js')
 
-// Write config file as JSON to keep API compatibility
-fs.writeFileSync(
-  path.join(__dirname, 'config.json'),
-  JSON.stringify(config, null, 2),
-  'utf8'
-)
+const writePromise = (file, promisedContent) =>
+  promisedContent.then(data => writeFile(file, data))
 
-const generate = async () => {
-  const tachy = tachyonsGenerator(config)
+const init = async () => {
+  // Write config file as JSON to keep API compatibility
+  await writeFile(
+    path.join(__dirname, 'config.json'),
+    JSON.stringify(config, null, 2),
+    'utf8',
+  )
 
-  const docs = await tachy.docs()
-  const css = await tachy.generate()
-  const cssMin = await tachy.generate({ minify: true })
+  const generate = () => {
+    const tachy = tachyonsGenerator(config)
 
-  fs.writeFileSync('index.html', docs)
-  fs.writeFileSync('tachyons.css', css)
-  fs.writeFileSync('tachyons.min.css', cssMin)
+    writePromise('index.html', tachy.docs())
+    writePromise('tachyons.css', tachy.generate())
+    writePromise('tachyons.min.css', tachy.generate({ minify: true }))
+    writePromise('tachyons.print.css', tachy.generatePrint())
+    writePromise(
+      'tachyons.print.min.css',
+      tachy.generatePrint({ minify: true }),
+    )
+  }
+
+  const generateScoped = () => {
+    const namespace = 'onda-v3'
+    const scopedConfig = Object.assign({}, { namespace }, config)
+    const tachy = tachyonsGenerator(scopedConfig)
+
+    writePromise('tachyons-scoped.css', tachy.generate())
+    writePromise('tachyons-scoped.min.css', tachy.generate({ minify: true }))
+  }
+
+  generate()
+  generateScoped()
 }
 
-generate()
-
-const generateScoped = async () => {
-  const namespace = 'onda-v3'
-  const scopedConfig = Object.assign({}, { namespace }, config)
-  const tachy = tachyonsGenerator(scopedConfig)
-
-  const css = await tachy.generate()
-  const cssMin = await tachy.generate({ minify: true })
-
-  fs.writeFileSync('tachyons-scoped.css', css)
-  fs.writeFileSync('tachyons-scoped.min.css', cssMin)
-}
-
-generateScoped()
+init()
