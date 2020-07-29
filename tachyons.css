@@ -1281,7 +1281,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .active-c-on-warning:active { color: #fff; }
 .active-c-on-warning--faded:active { color: #1a1a1a; }
 .active-bg-action-primary:active { background-color: #0c389f; }
-.active-bg-action-secondary:active { background-color: #dbe9fd; }
+.active-bg-action-secondary:active { background-color: #d2defc; }
 .active-bg-emphasis:active { background-color: #dd1659; }
 .active-bg-success:active { background-color: #8bc34a; }
 .active-bg-success--faded:active { background-color: #eafce3; }
@@ -1295,7 +1295,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .active-bg-muted-4:active { background-color: #e3e4e6; }
 .active-bg-muted-5:active { background-color: #f2f4f5; }
 .active-b--action-primary:active { border-color: #0c389f; }
-.active-b--action-secondary:active { border-color: #dbe9fd; }
+.active-b--action-secondary:active { border-color: #d2defc; }
 .active-b--emphasis:active { border-color: #dd1659; }
 .active-b--success:active { border-color: #79b03a; }
 .active-b--success--faded:active { border-color: #eafce3; }

@@ -121,7 +121,7 @@ module.exports = {
     },
     "active-background": {
       "action-primary": "#0c389f",
-      "action-secondary": "#dbe9fd",
+      "action-secondary": "#d2defc",
       "emphasis": "#dd1659",
       "success": "#8bc34a",
       "success--faded": "#eafce3",
@@ -213,7 +213,7 @@ module.exports = {
     },
     "active-border": {
       "action-primary": "#0c389f",
-      "action-secondary": "#dbe9fd",
+      "action-secondary": "#d2defc",
       "emphasis": "#dd1659",
       "success": "#79B03A",
       "success--faded": "#eafce3",
