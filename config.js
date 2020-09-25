@@ -187,7 +187,7 @@ module.exports = {
       "success--faded": "#eafce3",
       "danger": "#ff4c4c",
       "danger--faded": "#ffe6e6",
-      "warning": "#E19D00",
+      "warning": "#ffb100",
       "warning--faded": "#fff6e0",
       "muted-1": "#727273",
       "muted-2": "#979899",
