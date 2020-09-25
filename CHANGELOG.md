@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Fixed
+
+- **border** `warning` color from `#e19d00` to `#ffb100`
+
 ## [3.2.1] - 2020-07-29
 
 ### Fixed

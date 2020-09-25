@@ -222,7 +222,7 @@ template { display: none; }
 .b--success--faded { border-color: #eafce3; }
 .b--danger { border-color: #ff4c4c; }
 .b--danger--faded { border-color: #ffe6e6; }
-.b--warning { border-color: #e19d00; }
+.b--warning { border-color: #ffb100; }
 .b--warning--faded { border-color: #fff6e0; }
 .b--muted-1 { border-color: #727273; }
 .b--muted-2 { border-color: #979899; }
